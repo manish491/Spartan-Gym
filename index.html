@@ -1,0 +1,2118 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "tertiary": "#ffb3b3",
+          "on-tertiary-fixed": "#400009",
+          "surface-variant": "#353438",
+          "tertiary-fixed": "#ffdad9",
+          "background": "#131316",
+          "inverse-surface": "#e5e1e6",
+          "secondary": "#c2c6d0",
+          "surface-container-highest": "#353438",
+          "primary-fixed-dim": "#ffb3ae",
+          "on-surface": "#e5e1e6",
+          "outline-variant": "#5e3f3c",
+          "surface-tint": "#ffb3ae",
+          "surface-container-high": "#2a2a2d",
+          "primary-container": "#e60026",
+          "on-background": "#e5e1e6",
+          "tertiary-fixed-dim": "#ffb3b3",
+          "surface-container-lowest": "#0e0e11",
+          "surface-dim": "#131316",
+          "on-primary": "#68000b",
+          "error-container": "#93000a",
+          "surface-container-low": "#1b1b1e",
+          "on-surface-variant": "#e8bcb8",
+          "on-tertiary": "#680014",
+          "on-tertiary-container": "#fff8f7",
+          "on-secondary-fixed": "#171c23",
+          "on-primary-container": "#fff8f7",
+          "surface": "#131316",
+          "secondary-fixed": "#dee2ed",
+          "on-secondary-container": "#b1b5bf",
+          "secondary-fixed-dim": "#c2c6d0",
+          "on-secondary": "#2c3138",
+          "inverse-primary": "#c0001e",
+          "primary-fixed": "#ffdad7",
+          "on-primary-fixed": "#410004",
+          "tertiary-container": "#e50039",
+          "on-error": "#690005",
+          "on-tertiary-fixed-variant": "#920021",
+          "error": "#ffb4ab",
+          "surface-bright": "#39393c",
+          "on-secondary-fixed-variant": "#42474f",
+          "on-primary-fixed-variant": "#930014",
+          "primary": "#ffb3ae",
+          "on-error-container": "#ffdad6",
+          "outline": "af8784",
+          "secondary-container": "#42474f",
+          "surface-container": "#1f1f22",
+          "inverse-on-surface": "#303033"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "margin": "3rem",
+          "space-lg": "1.75rem",
+          "margin-mobile": "1.25rem",
+          "space-xl": "3rem",
+          "space-md": "1rem",
+          "space-sm": "0.5rem",
+          "space-xs": "0.25rem",
+          "gutter": "1.5rem",
+          "gutter-sm": "1rem"
+        },
+        "fontFamily": {
+          "label-caps": [
+            "Space Grotesk"
+          ],
+          "headline-lg": [
+            "Barlow Condensed"
+          ],
+          "display-hero": [
+            "Barlow Condensed"
+          ],
+          "headline-xl-mobile": [
+            "Barlow Condensed"
+          ],
+          "label-mono-sm": [
+            "Space Grotesk"
+          ],
+          "headline-xl": [
+            "Barlow Condensed"
+          ],
+          "display-hero-mobile": [
+            "Barlow Condensed"
+          ],
+          "label-data": [
+            "Space Grotesk"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ],
+          "headline-lg-mobile": [
+            "Barlow Condensed"
+          ],
+          "headline-md": [
+            "Barlow Condensed"
+          ],
+          "body-xl": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "label-caps": [
+            "12px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "38px",
+            {
+              "lineHeight": "42px",
+              "letterSpacing": "0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "display-hero": [
+            "84px",
+            {
+              "lineHeight": "84px",
+              "letterSpacing": "0.04em",
+              "fontWeight": "800"
+            }
+          ],
+          "headline-xl-mobile": [
+            "36px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "500"
+            }
+          ],
+          "headline-xl": [
+            "56px",
+            {
+              "lineHeight": "58px",
+              "letterSpacing": "0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "display-hero-mobile": [
+            "48px",
+            {
+              "lineHeight": "50px",
+              "letterSpacing": "0.03em",
+              "fontWeight": "800"
+            }
+          ],
+          "label-data": [
+            "14px",
+            {
+              "lineHeight": "18px",
+              "letterSpacing": "0.05em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "28px",
+            {
+              "lineHeight": "32px",
+              "letterSpacing": "0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "26px",
+            {
+              "lineHeight": "30px",
+              "letterSpacing": "0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-xl": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="Spartan Gym Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPDXdq1Zb4pazJdZbbh-L4Si-nH5mde1e5onrdj7UTWGoBYUYPPK4I8816nwWrmWNjd9yJoAMth-boapJ_zLcNmuhYSZGCayTCux1Rsaey02pvVvd-K7ZPMqdi1x9hbUQISpdkSse9x-rdIoaQ5m6HIHrVk4L83p19j5Y23yfG9yac44F0E-vcVIRsmSXxiXdCY82EzRAcxl5Oazh-GxA8ca6F0_HhDeGJGCx4fPMzp4Q3Nmdm6zHx"/><div class="flex flex-col"><span class="font-headline-md text-headline-md tracking-wider uppercase text-on-surface leading-none">SPARTAN GYM</span><div class="flex items-center gap-space-xs mt-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-mono-sm text-label-mono-sm uppercase text-secondary tracking-widest">MADIPUR COLONY • NEW DELHI</span></div></div></div><nav class="hidden xl:flex items-center gap-space-md" data-active-classes="text-primary-container font-bold"><a aria-current="page" class="uppercase transition-colors py-space-xs text-primary-container font-bold" data-path="home" href="#">Home</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="about" href="#">About</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="facilities" href="#">Facilities</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="trainers" href="#">Trainers</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="programs" href="#">Programs</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="memberships" href="#">Memberships</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="muscle-3d" href="#muscle-explorer-section">Muscle 3D</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="schedule" href="#">Schedule</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><button aria-label="Toggle Ambient Sound" class="w-10 h-10 rounded flex items-center justify-center bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface transition-all" title="Toggle Sound" type="button"><span class="material-symbols-outlined text-[20px]">volume_up</span></button><a class="hidden sm:inline-flex items-center justify-center bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-caps text-label-caps px-space-md py-space-sm uppercase tracking-wider rounded transition-all shadow-[0_0_20px_rgba(230,0,38,0.35)] hover:shadow-[0_0_28px_rgba(230,0,38,0.6)]" data-path="memberships" href="#">JOIN NOW</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full relative selection:bg-primary-container selection:text-on-primary-container overflow-hidden">
+<!-- ========================================== -->
+<!-- 1. CINEMATIC PRELOADER & INTRO HUD OVERLAY -->
+<!-- ========================================== -->
+<div class="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#09090c] transition-opacity duration-700 ease-out select-none" id="spartan-preloader">
+<div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-container/15 via-background to-surface-container-lowest opacity-80 pointer-events-none"></div>
+<div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none"></div>
+<div class="relative z-10 flex flex-col items-center max-w-md px-6 text-center">
+<!-- Spartan Helm Icon SVG Ring -->
+<div class="relative w-28 h-28 mb-8 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90 transform" viewbox="0 0 100 100">
+<circle cx="50" cy="50" fill="none" r="44" stroke="rgba(255, 255, 255, 0.08)" stroke-width="3"></circle>
+<circle class="transition-all duration-150 ease-out" cx="50" cy="50" fill="none" id="preloader-circle" r="44" stroke="#E60026" stroke-dasharray="276" stroke-dashoffset="276" stroke-linecap="square" stroke-width="3.5"></circle>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center flex-col">
+<span class="material-symbols-outlined text-primary-container text-4xl animate-pulse" style="font-variation-settings: 'FILL' 1;">shield</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary font-bold mt-1 tracking-widest" id="preloader-pct">0%</span>
+</div>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-[0.28em] text-secondary">MADIPUR METRO SECTOR • DELHI</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl uppercase tracking-wider text-on-surface leading-none mb-3">
+        SPARTAN <span class="text-primary-container">ARENA</span>
+</h2>
+<p class="font-body-sm text-body-sm text-secondary mb-8 tracking-wide">
+        CALIBRATING BIOMECHANIC COMBAT GRIDS &amp; IRON PROTOCOLS
+      </p>
+<button class="group relative px-8 py-3.5 bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-caps text-label-caps uppercase tracking-widest rounded transition-all duration-300 shadow-[0_0_30px_rgba(230,0,38,0.45)] hover:shadow-[0_0_45px_rgba(230,0,38,0.7)] active:scale-95 flex items-center gap-2" id="btn-enter-arena" type="button">
+<span>ENTER THE ARENA</span>
+<span class="material-symbols-outlined text-lg transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+<div class="mt-4 flex items-center gap-4 text-xs font-label-mono-sm text-secondary/60">
+<span class="hover:text-secondary cursor-pointer" onclick="dismissPreloader()">[ESC] SKIP HUD INITIALIZATION</span>
+</div>
+</div>
+</div>
+<!-- ========================================== -->
+<!-- 2. MONUMENTAL HERO SECTION                 -->
+<!-- ========================================== -->
+<section class="relative min-h-[942px] lg:min-h-screen flex items-center justify-center -mt-20 pt-20 overflow-hidden bg-[#0A0A0D]">
+<!-- Procedural Shader Background Asset -->
+<!-- STITCH_SHADER_START:ANIMATION_2 class="absolute inset-0 w-full h-full opacity-65 pointer-events-none" -->
+<div class="absolute inset-0 w-full h-full opacity-65 pointer-events-none" style="display:block;">
+<canvas id="shader-canvas-ANIMATION_2" style="display:block;width:100%;height:100%"></canvas>
+<script>
+(function() {
+  const canvas = document.getElementById('shader-canvas-ANIMATION_2');
+
+  // Sync the WebGL drawing-buffer size with the CSS-driven layout size.
+  // This fires on initial layout and whenever the element is resized.
+  function syncSize() {
+    const w = canvas.clientWidth  || 1280;
+    const h = canvas.clientHeight || 720;
+    if (canvas.width !== w || canvas.height !== h) {
+      canvas.width  = w;
+      canvas.height = h;
+    }
+  }
+  if (typeof ResizeObserver !== 'undefined') {
+    new ResizeObserver(syncSize).observe(canvas);
+  }
+  syncSize();
+
+  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+  if (!gl) return;
+  const vs = `attribute vec2 a_position;
+varying vec2 v_texCoord;
+void main() {
+  v_texCoord = a_position * 0.5 + 0.5;
+  gl_Position = vec4(a_position, 0.0, 1.0);
+}`;
+  const fs = `precision highp float;
+uniform float u_time;
+uniform vec2 u_resolution;
+uniform vec2 u_mouse;
+varying vec2 v_texCoord;
+
+// Simplex-style noise & dynamic ember field with volumetric crimson lighting
+float hash(vec2 p) {
+    return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453123);
+}
+
+float noise(vec2 p) {
+    vec2 i = floor(p);
+    vec2 f = fract(p);
+    vec2 u = f * f * (3.0 - 2.0 * f);
+    return mix(mix(hash(i + vec2(0.0, 0.0)), hash(i + vec2(1.0, 0.0)), u.x),
+               mix(hash(i + vec2(0.0, 1.0)), hash(i + vec2(1.0, 1.0)), u.x), u.y);
+}
+
+float fbm(vec2 p) {
+    float v = 0.0;
+    float a = 0.5;
+    mat2 rot = mat2(cos(0.5), sin(0.5), -sin(0.5), cos(0.5));
+    for (int i = 0; i < 4; i++) {
+        v += a * noise(p);
+        p = rot * p * 2.0 + vec2(0.1, 0.2);
+        a *= 0.5;
+    }
+    return v;
+}
+
+void main() {
+    vec2 uv = gl_FragCoord.xy / u_resolution.xy;
+    vec2 p = (gl_FragCoord.xy - 0.5 * u_resolution.xy) / min(u_resolution.x, u_resolution.y);
+    
+    // Mouse offset
+    vec2 m = (u_mouse - 0.5 * u_resolution) / min(u_resolution.x, u_resolution.y);
+    p += m * 0.08;
+
+    float t = u_time * 0.35;
+    
+    // Deep atmospheric background with flowing smoke / energy
+    vec2 flowUV = p * 1.8 + vec2(0.0, -t * 0.4);
+    float n1 = fbm(flowUV);
+    float n2 = fbm(flowUV * 2.0 + vec2(t * 0.2, -t * 0.5));
+    
+    // Crimson core glow and rim lighting
+    float distCenter = length(p);
+    float radial = smoothstep(1.2, 0.1, distCenter);
+    
+    // Floating glowing gym ember particles
+    float embers = 0.0;
+    for (float i = 1.0; i <= 14.0; i += 1.0) {
+        vec2 pos = vec2(
+            sin(i * 19.3 + t * (0.8 + fract(i * 0.13))) * 0.9,
+            fract(i * 7.7 - t * (0.2 + fract(i * 0.31))) * 2.2 - 1.1
+        );
+        float d = length(p - pos);
+        float spark = 0.0035 / (d + 0.001);
+        embers += spark * smoothstep(0.4, 0.0, d);
+    }
+    
+    vec3 baseDark = vec3(0.043, 0.043, 0.055);
+    vec3 obsidian = vec3(0.07, 0.075, 0.095);
+    vec3 crimsonGlow = vec3(0.9, 0.02, 0.15);
+    vec3 brightRed = vec3(1.0, 0.15, 0.25);
+    vec3 metallicSilver = vec3(0.65, 0.7, 0.78);
+    
+    // Blend smoke waves
+    vec3 color = mix(baseDark, obsidian, n1 * 0.7);
+    color += crimsonGlow * pow(n2, 2.5) * 0.85;
+    
+    // Central crimson volumetric pillar / arena backlight
+    float beam = exp(-pow(p.x * 2.5, 2.0)) * smoothstep(-1.0, 1.0, -p.y) * 0.6;
+    color += crimsonGlow * beam;
+    
+    // Add glowing ember sparks
+    color += mix(crimsonGlow, brightRed, 0.5) * embers * 1.2;
+    
+    // Vignette
+    float vig = smoothstep(1.5, 0.3, length(uv - 0.5) * 1.4);
+    color *= vig;
+    
+    gl_FragColor = vec4(color, 1.0);
+}`;
+  function cs(type, src) {
+    const s = gl.createShader(type);
+    gl.shaderSource(s, src);
+    gl.compileShader(s);
+    return s;
+  }
+  const prog = gl.createProgram();
+  gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
+  gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
+  gl.linkProgram(prog);
+  gl.useProgram(prog);
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+  const pos = gl.getAttribLocation(prog, 'a_position');
+  gl.enableVertexAttribArray(pos);
+  gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+  const uTime = gl.getUniformLocation(prog, 'u_time');
+  const uRes = gl.getUniformLocation(prog, 'u_resolution');
+  const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+
+  // u_mouse is in pixel coordinates matching u_resolution (ShaderToy convention).
+  // Shaders that need normalized coords should use: u_mouse / u_resolution.
+  let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+  window.addEventListener('mousemove', (event) => {
+    const rect = canvas.getBoundingClientRect();
+    if (rect.width && rect.height) {
+      const nx = (event.clientX - rect.left) / rect.width;
+      const ny = 1.0 - (event.clientY - rect.top) / rect.height;
+      mouse.x = nx * canvas.width;
+      mouse.y = ny * canvas.height;
+    }
+  });
+
+  function render(t) {
+    if (typeof ResizeObserver === 'undefined') syncSize();
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    if (uTime) gl.uniform1f(uTime, t * 0.001);
+    if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+    if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    requestAnimationFrame(render);
+  }
+  render(0);
+})();
+</script>
+</div>
+<!-- STITCH_SHADER_END:ANIMATION_2 -->
+<!-- Interactive 3D Spartan Warrior Helmet Asset -->
+<!-- STITCH_THREEJS_START:ANIMATION_3 class="absolute inset-0 w-full h-full bg-transparent z-10 pointer-events-none" -->
+<div class="absolute inset-0 w-full h-full bg-transparent z-10 pointer-events-none" style="display:block;">
+<script src="https://ajax.googleapis.com/ajax/libs/threejs/r125/three.min.js"></script>
+<div id="threejs-container-ANIMATION_3" style="width:100%;height:100%"></div>
+<script>
+(function() {
+  const container = document.getElementById('threejs-container-ANIMATION_3');
+  const devicePixelRatio = window.devicePixelRatio || 1;
+  // Three.js Interactive Spartan Helmet & Floating Training Armour Scene
+const width = container.clientWidth || window.innerWidth;
+const height = container.clientHeight || window.innerHeight;
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+camera.position.set(0, 0, 7.5);
+
+const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+renderer.setSize(width, height);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+container.appendChild(renderer.domElement);
+
+// Lighting: Cinematic Crimson Rim & Metallic Key Lights
+const ambientLight = new THREE.AmbientLight(0x1a1a24, 2.0);
+scene.add(ambientLight);
+
+const redRimLeft = new THREE.DirectionalLight(0xe60026, 6.0);
+redRimLeft.position.set(-6, 3, 2);
+scene.add(redRimLeft);
+
+const redRimRight = new THREE.DirectionalLight(0xff1744, 7.0);
+redRimRight.position.set(6, -2, -1);
+scene.add(redRimRight);
+
+const metallicKeyLight = new THREE.DirectionalLight(0xdde3ea, 4.0);
+metallicKeyLight.position.set(2, 6, 5);
+scene.add(metallicKeyLight);
+
+const pointGlow = new THREE.PointLight(0xe60026, 4.0, 15);
+pointGlow.position.set(0, 0, 2);
+scene.add(pointGlow);
+
+// Materials
+const darkMetalMat = new THREE.MeshStandardMaterial({
+    color: 0x1f2127,
+    metalness: 0.85,
+    roughness: 0.3,
+});
+
+const silverTrimMat = new THREE.MeshStandardMaterial({
+    color: 0xc4c9d4,
+    metalness: 0.9,
+    roughness: 0.2,
+});
+
+const crimsonEnergyMat = new THREE.MeshStandardMaterial({
+    color: 0xe60026,
+    emissive: 0x990014,
+    emissiveIntensity: 0.8,
+    metalness: 0.6,
+    roughness: 0.25,
+});
+
+// Build 3D Spartan Warrior Helmet Group
+const spartanGroup = new THREE.Group();
+
+// 1. Helmet Dome (Cranial shell)
+const domeGeo = new THREE.SphereGeometry(1.6, 32, 24, 0, Math.PI * 2, 0, Math.PI * 0.58);
+const dome = new THREE.Mesh(domeGeo, darkMetalMat);
+dome.position.y = 0.2;
+spartanGroup.add(dome);
+
+// 2. Helmet Crest / Ridge (High mohawk plume spine)
+const crestCurve = new THREE.CylinderGeometry(0.18, 0.18, 3.2, 16);
+crestCurve.rotateX(Math.PI / 2);
+const crestSpine = new THREE.Mesh(crestCurve, silverTrimMat);
+crestSpine.position.set(0, 1.85, -0.2);
+crestSpine.scale.set(0.8, 1.0, 1.25);
+spartanGroup.add(crestSpine);
+
+// Crest Plume (Crimson Spartan Mohawk Fin)
+const plumeGeo = new THREE.BoxGeometry(0.12, 1.1, 3.4);
+const plume = new THREE.Mesh(plumeGeo, crimsonEnergyMat);
+plume.position.set(0, 2.3, -0.2);
+spartanGroup.add(plume);
+
+// 3. Face Plate & Cheeks (Angular Spartan Visor)
+const cheekLeftGeo = new THREE.BoxGeometry(0.2, 1.6, 1.2);
+const cheekLeft = new THREE.Mesh(cheekLeftGeo, darkMetalMat);
+cheekLeft.position.set(-1.15, -0.6, 0.45);
+cheekLeft.rotation.set(0.15, 0.2, -0.15);
+spartanGroup.add(cheekLeft);
+
+const cheekRight = new THREE.Mesh(cheekLeftGeo, darkMetalMat);
+cheekRight.position.set(1.15, -0.6, 0.45);
+cheekRight.rotation.set(0.15, -0.2, 0.15);
+spartanGroup.add(cheekRight);
+
+// 4. Iconic T-Shaped Nose & Brow Guard
+const browGeo = new THREE.BoxGeometry(2.3, 0.35, 0.4);
+const brow = new THREE.Mesh(browGeo, silverTrimMat);
+brow.position.set(0, 0.45, 1.55);
+spartanGroup.add(brow);
+
+const noseGuardGeo = new THREE.BoxGeometry(0.35, 1.7, 0.35);
+const noseGuard = new THREE.Mesh(noseGuardGeo, crimsonEnergyMat);
+noseGuard.position.set(0, -0.35, 1.58);
+spartanGroup.add(noseGuard);
+
+// 5. Orbiting Metallic Energy Rings (Spartan Strength Rings)
+const ringGeo = new THREE.TorusGeometry(2.8, 0.05, 16, 100);
+const ring1 = new THREE.Mesh(ringGeo, silverTrimMat);
+ring1.rotation.x = Math.PI / 3;
+spartanGroup.add(ring1);
+
+const ring2 = new THREE.Mesh(ringGeo, crimsonEnergyMat);
+ring2.rotation.y = Math.PI / 2.6;
+ring2.scale.set(1.15, 1.15, 1.15);
+spartanGroup.add(ring2);
+
+// Floating Iron Weight Plates in Background Depth
+const plateGeo = new THREE.CylinderGeometry(0.9, 0.9, 0.22, 24);
+const plate1 = new THREE.Mesh(plateGeo, darkMetalMat);
+plate1.position.set(-3.2, 1.8, -2.0);
+plate1.rotation.set(0.6, 0.4, 0.2);
+spartanGroup.add(plate1);
+
+const plate2 = new THREE.Mesh(plateGeo, darkMetalMat);
+plate2.position.set(3.4, -1.6, -1.8);
+plate2.rotation.set(-0.5, 0.8, -0.3);
+spartanGroup.add(plate2);
+
+scene.add(spartanGroup);
+
+// Mouse interaction tracking
+let mouseX = 0;
+let mouseY = 0;
+let targetX = 0;
+let targetY = 0;
+
+window.addEventListener('mousemove', (e) => {
+    mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+    mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+});
+
+// Resize handler
+window.addEventListener('resize', () => {
+    const w = container.clientWidth || window.innerWidth;
+    const h = container.clientHeight || window.innerHeight;
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+    renderer.setSize(w, h);
+});
+
+// Render Loop
+let clock = new THREE.Clock();
+
+function animate() {
+    requestAnimationFrame(animate);
+    const elapsedTime = clock.getElapsedTime();
+
+    // Smooth inertia tracking
+    targetX += (mouseX - targetX) * 0.05;
+    targetY += (mouseY - targetY) * 0.05;
+
+    // Subtle breathing float and mouse yaw/pitch
+    spartanGroup.position.y = Math.sin(elapsedTime * 1.5) * 0.18;
+    spartanGroup.rotation.y = elapsedTime * 0.35 + targetX * 0.75;
+    spartanGroup.rotation.x = Math.sin(elapsedTime * 0.8) * 0.08 - targetY * 0.45;
+
+    // Orbiting rings counter-rotation
+    ring1.rotation.z += 0.008;
+    ring2.rotation.x += 0.012;
+    ring2.rotation.y += 0.006;
+
+    // Weight plates ambient float
+    plate1.rotation.y += 0.01;
+    plate2.rotation.z += 0.01;
+
+    renderer.render(scene, camera);
+}
+
+animate();
+})();
+</script>
+</div>
+<!-- STITCH_THREEJS_END:ANIMATION_3 -->
+<!-- Layered Scrim Gradients -->
+<div class="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent z-10 pointer-events-none"></div>
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(230,0,38,0.12)_0%,transparent_70%)] z-10 pointer-events-none"></div>
+<!-- Foreground Content -->
+<div class="relative z-20 w-full max-w-[1440px] mx-auto px-margin-mobile lg:px-margin py-16 flex flex-col items-center text-center">
+<!-- Location Tactical Badge -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container/80 backdrop-blur-md shadow-lg mb-6 border border-white/10">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#e60026]"></span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-[0.2em] text-on-surface">MADIPUR COLONY • NEW DELHI - 110063</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase font-bold">ATHLETIC VAULT</span>
+</div>
+<!-- Monumental Headline with Subtle Crimson Rim Light -->
+<h1 class="font-display-hero text-headline-xl md:text-[96px] lg:text-[120px] lg:leading-[0.9] uppercase tracking-tight text-on-surface font-extrabold max-w-5xl drop-shadow-[0_10px_35px_rgba(0,0,0,0.8)]">
+        FORGED IN <span class="bg-gradient-to-r from-white via-primary-fixed-dim to-primary-container bg-clip-text text-transparent">DISCIPLINE.</span>
+</h1>
+<p class="font-headline-md text-headline-md md:text-headline-lg uppercase text-secondary max-w-3xl mt-4 tracking-wider">
+        BUILD STRENGTH. BREAK LIMITS. BECOME SPARTAN.
+      </p>
+<p class="font-body-md text-body-md text-secondary/80 max-w-2xl mt-3">
+        West Delhi's high-performance sanctuary engineered for uncompromising iron conditioning, biomechanical mastery, and transformative body recomposition.
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row items-center gap-4 mt-8 w-full sm:w-auto">
+<a class="w-full sm:w-auto px-8 py-4 bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-caps text-label-caps uppercase tracking-wider rounded text-center transition-all duration-200 shadow-[0_0_30px_rgba(230,0,38,0.4)] hover:shadow-[0_0_40px_rgba(230,0,38,0.7)] active:scale-95 flex items-center justify-center gap-2" href="#memberships-section">
+<span>EXPLORE MEMBERSHIPS</span>
+<span class="material-symbols-outlined text-lg">bolt</span>
+</a>
+<a class="w-full sm:w-auto px-8 py-4 bg-surface-container/70 hover:bg-surface-container-high text-on-surface font-label-caps text-label-caps uppercase tracking-wider rounded text-center backdrop-blur-md transition-all duration-200 shadow-md flex items-center justify-center gap-2 border border-white/10 hover:border-white/30" href="#facilities-section">
+<span>EXPLORE THE GYM</span>
+<span class="material-symbols-outlined text-lg">fitness_center</span>
+</a>
+<button class="p-4 rounded bg-surface-container/50 hover:bg-surface-container text-secondary hover:text-on-surface transition-all flex items-center justify-center border border-white/5" id="toggle-ambient-audio-btn" title="Toggle Biometric Sound Engine" type="button">
+<span class="material-symbols-outlined text-xl" id="audio-icon-state">volume_off</span>
+</button>
+</div>
+<!-- Live Performance Telemetry Grid -->
+<div class="w-full max-w-5xl mt-14 grid grid-cols-2 lg:grid-cols-4 gap-3">
+<div class="bg-surface-container-low/80 backdrop-blur-md p-4 rounded text-left shadow-lg">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">BAY 01</span>
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface uppercase">HEAVY IRON ARENA</div>
+<p class="font-body-sm text-body-sm text-secondary/70">Up to 60KG Dumbbells &amp; Racks</p>
+</div>
+<div class="bg-surface-container-low/80 backdrop-blur-md p-4 rounded text-left shadow-lg">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">BAY 02</span>
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface uppercase">CALISTHENICS &amp; HIIT</div>
+<p class="font-body-sm text-body-sm text-secondary/70">Sled Turf &amp; Pull-up Monoliths</p>
+</div>
+<div class="bg-surface-container-low/80 backdrop-blur-md p-4 rounded text-left shadow-lg">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">BAY 03</span>
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface uppercase">BIOMECHANICS LAB</div>
+<p class="font-body-sm text-body-sm text-secondary/70">Custom Angle Plate-Loaded Units</p>
+</div>
+<div class="bg-surface-container-low/80 backdrop-blur-md p-4 rounded text-left shadow-lg">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">CADRE STATUS</span>
+<span class="font-label-mono-sm text-[10px] text-primary px-1.5 py-0.5 rounded bg-primary-container/20">LIVE</span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface uppercase">100% DISCIPLINE</div>
+<p class="font-body-sm text-body-sm text-secondary/70">Certified Strength Mentors</p>
+</div>
+</div>
+<!-- Kinetic Scroll Chevron -->
+<a class="mt-12 flex flex-col items-center text-secondary/60 hover:text-primary transition-colors group" href="#about-section">
+<span class="font-label-mono-sm text-label-mono-sm tracking-[0.2em] uppercase">SCROLL TO PROTOCOL</span>
+<span class="material-symbols-outlined text-2xl animate-bounce mt-1 group-hover:text-primary-container">keyboard_double_arrow_down</span>
+</a>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 3. ABOUT SPARTAN GYM (THE MINDSET)         -->
+<!-- ========================================== -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile lg:px-margin py-20 lg:py-28 relative" id="about-section">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<!-- Text Narrative Column -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 bg-surface-container-high rounded font-label-mono-sm text-label-mono-sm uppercase text-primary tracking-widest">TACTICAL CODE 01</span>
+<span class="w-12 h-0.5 bg-primary-container"></span>
+</div>
+<h2 class="font-headline-xl text-headline-xl lg:text-[68px] lg:leading-[1] uppercase tracking-tight text-on-surface font-extrabold">
+          MORE THAN A GYM. <br/>
+<span class="text-primary-container">A WARRIOR MINDSET.</span>
+</h2>
+<p class="font-body-xl text-body-xl text-secondary">
+          Spartan Gym was built with a singular premise: to dismantle the complacent, casual gym culture and construct an arena of pure athletic transcendence in Madipur Colony, West Delhi.
+        </p>
+<p class="font-body-md text-body-md text-secondary/80">
+          Whether you are an aspiring powerlifter chasing national records, a corporate warrior forging an indestructible physical shield, or an athlete demanding real kinetic conditioning—we provide the raw iron, the science of mechanical tension, and the ruthless accountability to get you there.
+        </p>
+<!-- 4 Core Pillars Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+<div class="bg-surface-container p-5 rounded relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="text-primary font-label-mono-sm text-label-mono-sm font-bold tracking-widest mb-1">01 // REGULATION</div>
+<h3 class="font-headline-md text-headline-md uppercase text-on-surface mb-2">UNCOMPROMISING RIGOR</h3>
+<p class="font-body-sm text-body-sm text-secondary/80">Zero ego lifting. Proper bar trajectories, full range of motion, and ironclad gym etiquette.</p>
+</div>
+<div class="bg-surface-container p-5 rounded relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="text-primary font-label-mono-sm text-label-mono-sm font-bold tracking-widest mb-1">02 // SCIENCE</div>
+<h3 class="font-headline-md text-headline-md uppercase text-on-surface mb-2">BIOMECHANICAL FOCUS</h3>
+<p class="font-body-sm text-body-sm text-secondary/80">Every machine and barbell setup aligns with natural orthopedic load curves for joint longevity.</p>
+</div>
+<div class="bg-surface-container p-5 rounded relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="text-primary font-label-mono-sm text-label-mono-sm font-bold tracking-widest mb-1">03 // BROTHERHOOD</div>
+<h3 class="font-headline-md text-headline-md uppercase text-on-surface mb-2">SPARTAN COMMUNITY</h3>
+<p class="font-body-sm text-body-sm text-secondary/80">A collective of like-minded individuals in Delhi pushing past mental ceilings together.</p>
+</div>
+<div class="bg-surface-container p-5 rounded relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="text-primary font-label-mono-sm text-label-mono-sm font-bold tracking-widest mb-1">04 // EVOLUTION</div>
+<h3 class="font-headline-md text-headline-md uppercase text-on-surface mb-2">PROGRESSIVE OVERLOAD</h3>
+<p class="font-body-sm text-body-sm text-secondary/80">Documented metrics, weekly micro-progressions, and structured cyclic deloading blocks.</p>
+</div>
+</div>
+</div>
+<!-- Imagery Mosaic Column with Overlap -->
+<div class="lg:col-span-5 relative">
+<div class="relative w-full aspect-[4/5] rounded-lg overflow-hidden shadow-2xl bg-surface-container-lowest">
+<img class="w-full h-full object-cover grayscale contrast-125 group-hover:scale-105 transition-transform duration-500" data-alt="A dedicated muscular athlete performing heavy deadlifts in an intense dark industrial gym illuminated by dramatic red neon backlighting and raw steel dust" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-aHXA8rNwwltCYztjyvnO29UByHxko_EUBJHyet-eKMrjHIMxWFl-Bu-k9sdTuW8eZPqSN2tH5o3erldSrBosjbEx0Q8BQcesr7Ibul3GFl__jj84-4YQBIm1ndHvOTfRHuoa3-yNCjION9x4nRPQw8JISQijfppQwRtUAn1j5V9uofOQhAhMU8BunJ8uH97SBI1C3N422BXhY1nCFBsFGu9-qxiDGFm8KXNQjSzS0RzHNiyjb-P1"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 p-4 bg-surface-container-low/90 backdrop-blur-md rounded shadow-lg">
+<div class="flex items-center justify-between">
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-primary uppercase">ESTABLISHED 2021</div>
+<div class="font-headline-md text-headline-md uppercase text-on-surface">MADIPUR POWER CADRE</div>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-on-primary font-bold">
+<span class="material-symbols-outlined text-xl">military_tech</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Overlapping Stats HUD Card -->
+<div class="absolute -top-6 -left-6 sm:-left-8 bg-surface-container-high/95 backdrop-blur-xl p-5 rounded shadow-2xl max-w-xs border border-white/5 hidden sm:block">
+<div class="flex items-center gap-2 mb-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase text-on-surface font-bold tracking-wider">LIVE ATHLETE RATING</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-primary font-extrabold leading-none">4.9</span>
+<span class="text-secondary font-body-sm text-body-sm">/ 5.0 (Google Reviews)</span>
+</div>
+<p class="text-secondary/70 font-body-sm text-xs mt-1">Over 850+ athletes trained across West Delhi with proven physique transformations.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 4. FACILITIES & EQUIPMENT SHOWCASE         -->
+<!-- ========================================== -->
+<section class="w-full py-20 bg-surface-container-lowest relative" id="facilities-section">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-container uppercase font-bold tracking-widest">TACTICAL ARSENAL</span>
+<span class="text-secondary/40">•</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">TIER 1 SPECIFICATIONS</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl uppercase tracking-tight text-on-surface font-extrabold">
+            THE SPARTAN <span class="text-primary-container">INFRASTRUCTURE</span>
+</h2>
+</div>
+<p class="font-body-md text-body-md text-secondary max-w-md">
+          Zero broken pulleys. Zero waiting queues for squat racks. Custom fabricated industrial heavy equipment maintained to elite Olympic standards daily.
+        </p>
+</div>
+<!-- Grid of Facility Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="group relative bg-surface-container rounded-lg overflow-hidden flex flex-col shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy free weights zone in a dark industrial gym featuring Olympic barbell stations, calibrated steel plates, and Olympic deadlift platforms under crimson spotlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIoCywiE1n6ijK4PRy_UWVjbyEKWmTgcf1JNW35FEAm3S5q3a7D4-fFsMcYAdWKZHnzYWOzuhLqguULXk7geU5XlLQdY-K51EZD3HsYZprfAb989WQLfKJYSPIMkPS0i0nisjvAeZUKvNHuznlIrbNjrDiPAcUNaIFdCuMZC9xeCfSRBBMAkBFGJhJNgPR070TSnQOkStLVq4UlK7U-8cNLHFDkcwg-Yqf0GX9cyLjoFxQHX8HEn6U"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/30 to-transparent"></div>
+<span class="absolute top-4 right-4 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono-sm text-label-mono-sm uppercase text-primary font-bold">STATION 01</span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mb-2">HEAVY IRON &amp; POWER RACKS</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+                Olympic barbells, bumper plates, 3 power cages with safety spotters, and a dumbbell arsenal extending up to 60KG for maximal compound overload.
+              </p>
+</div>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary/60 font-label-mono-sm text-xs">
+<span>LOAD CAPACITY: 20,000+ LBS</span>
+<span class="text-primary flex items-center gap-1">CERTIFIED <span class="material-symbols-outlined text-sm">verified</span></span>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group relative bg-surface-container rounded-lg overflow-hidden flex flex-col shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Dual adjustable multi-angle cable crossover machine with heavy stacks in an atmospheric dark gym setting with sharp red edge lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIMsAVx__XXbJygB9-gqwVVGUcVryozbHRqlNiNQaGDNigXNU6kbfxrwOUhJY2ehk_5zWCxTVEYrGVs7pohOqhkQfAjVtqK9JGoSsaM5ZiDc04W2yC6wjbnmL4c3TejbdulyaJaiSFqpL-Js1U57phY7Q-Xt2dK6w0QvPMdw9Dk73_zK0BgfpHa0arENNMFw9a5iTS7PGy0Pq0ns1yRYjXTn_Gg0tgc7zFZX_ZP3S_ujAVdJ6rjlMD"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/30 to-transparent"></div>
+<span class="absolute top-4 right-4 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono-sm text-label-mono-sm uppercase text-primary font-bold">STATION 02</span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mb-2">BIOMECHANICAL CABLES</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+                Ultra-smooth sealed bearing dual cable stacks, converging chest presses, lat pulldowns, and specialized ergonomic attachments for uninterrupted muscle tension.
+              </p>
+</div>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary/60 font-label-mono-sm text-xs">
+<span>ULTRA-BEARING SMOOTHNESS</span>
+<span class="text-primary flex items-center gap-1">OPTIMIZED <span class="material-symbols-outlined text-sm">tune</span></span>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group relative bg-surface-container rounded-lg overflow-hidden flex flex-col shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Functional turf sprint track inside a gym with battle ropes, heavy plyo boxes, sled track, and kettlebells arranged with high discipline" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhEifF6JuNjPbAn056T_hNUJKO9RAz4C_yEYhgzXmraAeeCfw_-6rplT2a4TInVGpqq6n4ieVj1DV1Qp0vYObjyJqCoHGhjBbnVsM-SWDQem66_ihVgRQmBL_0iaZV2DG7Hqrg-ABWt1627kbFzOrohCeqVPdEod9bqVrVaycqrxzsTTflEvrAvWmti0qr5sAINHEUbjaguWJLY2-kBTGP3I9gkBBGcfj3Z5_fC5RfSfNGYKypCxOT"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/30 to-transparent"></div>
+<span class="absolute top-4 right-4 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono-sm text-label-mono-sm uppercase text-primary font-bold">STATION 03</span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mb-2">TACTICAL FUNCTIONAL TURF</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+                Sprint sled runway, heavy cast iron kettlebells, thick battle ropes, slam balls, and gymnastic rings for raw conditioning and power transfer.
+              </p>
+</div>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary/60 font-label-mono-sm text-xs">
+<span>LENGTH: 25 METERS RUNWAY</span>
+<span class="text-primary flex items-center gap-1">HIGH-TRACTION <span class="material-symbols-outlined text-sm">speed</span></span>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group relative bg-surface-container rounded-lg overflow-hidden flex flex-col shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High-tech cardio rowers, air bikes, and assault runners aligned neatly in a minimalist dark fitness hall with moody red ambient illumination" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADnAWkl-Eac17XGf4QVeVCaNMwk5aET2Rd0fHbG_z7VeQayQPGeOoC_6b7Um5qqD9xiooHDutGnmv80URXVOzysrMb9srxTBFWpd8iadIg1wQ2Y5kzkOOr7NFKiokN0AOmSqkDRiHq5gTr-cKTXv37NcesdeHjJc_XJWEo1nuarWNONFMFxrVu-3NRRsse-cTZVp64NYbXYNNZ0YhMO_Z9K1Jx1LHGvImVeMzYYElo2m7DlIm9P0ZM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/30 to-transparent"></div>
+<span class="absolute top-4 right-4 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono-sm text-label-mono-sm uppercase text-primary font-bold">STATION 04</span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mb-2">PRECISION CARDIO DECK</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+                Curved non-motorized assault runners, concept2 air rowers, and echo bikes calibrated for anaerobic threshold tests and metabolic incineration.
+              </p>
+</div>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary/60 font-label-mono-sm text-xs">
+<span>MAX METABOLIC BURN</span>
+<span class="text-primary flex items-center gap-1">AIR-RESISTANT <span class="material-symbols-outlined text-sm">monitor_heart</span></span>
+</div>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="group relative bg-surface-container rounded-lg overflow-hidden flex flex-col shadow-xl transition-all duration-300 hover:-translate-y-1">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern athlete recovery room with red light therapy panels, massage foam rollers, clean locker benches, and high-end industrial dark aesthetics" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjFvLaB7B44OyJxT19eEF9UEZqQpJLiduDCh0DviVtgPxCi3TomqkK5UbWXjQDApQLO7b3oKPX0hPIVL3bv-JGzxqdgLqYaoni2OEzdXqkn82-EXQcBoNCculXe5DfX2yd8eDeD3xK-CYW0eN67XAMf4VjGVp3-wWiyHHXSuKyroJlSadWcHUsxQiud9UlxSi7jJhLwsMGczfhoUExKVodr4xZfGcdeM5EqNbAErL_p2A7ke6dvvYX"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/30 to-transparent"></div>
+<span class="absolute top-4 right-4 px-2.5 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono-sm text-label-mono-sm uppercase text-primary font-bold">STATION 05</span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mb-2">ATHLETE RECOVERY BAY</h3>
+<p class="font-body-sm text-body-sm text-secondary">
+                Acoustic isolation stretch deck, foam rolling arrays, percussive therapy zones, clean showers, and sanitized warrior lockers.
+              </p>
+</div>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary/60 font-label-mono-sm text-xs">
+<span>ACTIVE CELLULAR REST</span>
+<span class="text-primary flex items-center gap-1">HYGIENIC <span class="material-symbols-outlined text-sm">spa</span></span>
+</div>
+</div>
+</div>
+<!-- Card 6: Madipur Location Highlight -->
+<div class="group relative bg-gradient-to-br from-surface-container to-surface-container-high rounded-lg overflow-hidden flex flex-col shadow-xl p-8 justify-between border border-primary-container/20">
+<div>
+<div class="w-12 h-12 rounded bg-primary-container/20 text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-3xl">pin_drop</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mb-3">CONVENIENT METRO ACCESS</h3>
+<p class="font-body-md text-body-md text-secondary">
+              Situated right in the heart of Madipur Colony, West Delhi. Less than 3 minutes walk from the nearest metro pillar. Private vehicle and bike parking secured for all active enlistees.
+            </p>
+</div>
+<div class="mt-8">
+<a class="inline-flex items-center gap-2 font-label-caps text-label-caps text-primary hover:text-white uppercase tracking-wider transition-colors" href="#location-section">
+<span>VIEW LOCATION DETAILS</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 5. INTERACTIVE 3D MUSCLE EXPLORER HUD      -->
+<!-- ========================================== -->
+<section class="w-full py-20 lg:py-28 bg-background relative overflow-hidden" id="muscle-explorer-section">
+<div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-primary-container/10 blur-[120px] pointer-events-none"></div>
+<div class="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-primary-container/10 blur-[120px] pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col items-center text-center mb-12">
+<div class="flex items-center gap-2 mb-2">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#e60026]"></span>
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase tracking-[0.2em]">ANATOMY MATRIX 3.0 • HD VIDEO CADRE</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl uppercase tracking-tight text-on-surface font-extrabold max-w-4xl">
+        3D MUSCLE TARGETING &amp; <span class="text-primary-container">VIDEO EXERCISE DEMOS</span>
+</h2>
+<p class="font-body-md text-body-md text-secondary max-w-2xl mt-2">
+        Select any muscle node to reveal calibrated 3D anatomical heatmaps and full biomechanical video demonstrations recorded inside Spartan Gym Madipur.
+      </p>
+</div>
+<!-- Main Interactive HUD Container -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch bg-surface-container/70 backdrop-blur-xl p-6 lg:p-8 rounded-xl shadow-2xl border border-white/5 mb-8">
+<!-- Left: Anatomical Node Selector Buttons -->
+<div class="lg:col-span-4 flex flex-col gap-2.5 justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase tracking-widest">TARGET MOTOR UNIT:</span>
+<span class="font-label-mono-sm text-xs text-primary font-bold">6 CLUSTERS</span>
+</div>
+<div class="space-y-2" id="muscle-button-list">
+<button class="muscle-btn group w-full p-3.5 rounded text-left transition-all duration-200 bg-surface-container-high border-l-4 border-primary-container text-on-surface shadow-md flex items-center justify-between" data-muscle="chest" onclick="selectMuscle('chest')" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">fitness_center</span>
+<div>
+<div class="font-headline-md text-headline-md uppercase leading-none">CHEST / PECTORALS</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">Clavicular &amp; Sternal Heads</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-lg opacity-100 check-indicator">chevron_right</span>
+</button>
+<button class="muscle-btn group w-full p-3.5 rounded text-left transition-all duration-200 bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface flex items-center justify-between" data-muscle="back" onclick="selectMuscle('back')" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">accessibility_new</span>
+<div>
+<div class="font-headline-md text-headline-md uppercase leading-none">BACK / LATS &amp; RHOMBOIDS</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">Latissimus, Traps &amp; Teres</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-lg opacity-0 check-indicator">chevron_right</span>
+</button>
+<button class="muscle-btn group w-full p-3.5 rounded text-left transition-all duration-200 bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface flex items-center justify-between" data-muscle="shoulders" onclick="selectMuscle('shoulders')" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">shield</span>
+<div>
+<div class="font-headline-md text-headline-md uppercase leading-none">SHOULDERS / DELTOIDS</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">Anterior, Lateral &amp; Rear Heads</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-lg opacity-0 check-indicator">chevron_right</span>
+</button>
+<button class="muscle-btn group w-full p-3.5 rounded text-left transition-all duration-200 bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface flex items-center justify-between" data-muscle="arms" onclick="selectMuscle('arms')" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">sports_martial_arts</span>
+<div>
+<div class="font-headline-md text-headline-md uppercase leading-none">ARMS / BICEPS &amp; TRICEPS</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">Brachialis &amp; 3 Triceps Heads</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-lg opacity-0 check-indicator">chevron_right</span>
+</button>
+<button class="muscle-btn group w-full p-3.5 rounded text-left transition-all duration-200 bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface flex items-center justify-between" data-muscle="legs" onclick="selectMuscle('legs')" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">directions_run</span>
+<div>
+<div class="font-headline-md text-headline-md uppercase leading-none">LEGS / QUADS &amp; HAMSTRINGS</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">Vastus, Femoral &amp; Gluteal Drive</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-lg opacity-0 check-indicator">chevron_right</span>
+</button>
+<button class="muscle-btn group w-full p-3.5 rounded text-left transition-all duration-200 bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface flex items-center justify-between" data-muscle="core" onclick="selectMuscle('core')" type="button">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined group-hover:scale-110 transition-transform">electric_bolt</span>
+<div>
+<div class="font-headline-md text-headline-md uppercase leading-none">CORE / ABS &amp; OBLIQUES</div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary">Rectus Abdominis &amp; Serratus</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-lg opacity-0 check-indicator">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="mt-3 p-3 rounded bg-surface-container-lowest/80 border border-white/5 flex items-center justify-between">
+<span class="font-label-mono-sm text-xs text-secondary">TELEMETRY FEED</span>
+<span class="font-label-mono-sm text-xs text-primary flex items-center gap-1.5 font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span> 60 FPS MOTION READY
+          </span>
+</div>
+</div>
+<!-- Center: 3D Holographic Visualizer SVG & Heatmap -->
+<div class="lg:col-span-4 flex flex-col items-center justify-center p-6 bg-surface-container-lowest/90 rounded-lg relative min-h-[380px] shadow-inner border border-white/5">
+<div class="absolute top-4 left-4 font-label-mono-sm text-label-mono-sm text-secondary flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="text-primary font-bold">CADRE BIOMECHANICAL SCAN</span>
+</div>
+<!-- Wireframe & Anatomy SVG Container -->
+<div class="relative w-64 h-72 flex items-center justify-center my-2">
+<svg class="absolute inset-0 w-full h-full opacity-20 pointer-events-none" viewbox="0 0 200 240">
+<defs>
+<pattern height="20" id="grid" patternunits="userSpaceOnUse" width="20">
+<path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D4D8E2" stroke-width="0.5"></path>
+</pattern>
+</defs>
+<rect fill="url(#grid)" height="100%" width="100%"></rect>
+</svg>
+<!-- Anatomical Silhouette with Dynamic Highlights -->
+<svg class="w-56 h-68 drop-shadow-[0_0_20px_rgba(230,0,38,0.3)] transition-all duration-300" fill="none" id="anatomy-svg" viewbox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+<circle cx="100" cy="35" fill="#1b1b1e" r="18" stroke="#42474F" stroke-width="2"></circle>
+<path d="M75 55 L125 55 L135 120 L115 160 L85 160 L65 120 Z" fill="#131316" stroke="#42474F" stroke-width="2"></path>
+<path class="transition-colors duration-300" d="M75 62 Q100 75 125 62 L120 95 Q100 108 80 95 Z" fill="#E60026" fill-opacity="0.85" id="svg-part-chest" stroke="#ffb3ae" stroke-width="1.5"></path>
+<path class="transition-colors duration-300" d="M60 62 Q75 58 75 62 L65 95 Q52 75 60 62 Z" fill="#2c3138" id="svg-part-shoulders" stroke="#42474F" stroke-width="1"></path>
+<path class="transition-colors duration-300" d="M140 62 Q125 58 125 62 L135 95 Q148 75 140 62 Z" fill="#2c3138" id="svg-part-shoulders-r" stroke="#42474F" stroke-width="1"></path>
+<path class="transition-colors duration-300" d="M55 95 L65 95 L55 160 L45 155 Z" fill="#2c3138" id="svg-part-arms-l" stroke="#42474F" stroke-width="1"></path>
+<path class="transition-colors duration-300" d="M145 95 L135 95 L145 160 L155 155 Z" fill="#2c3138" id="svg-part-arms-r" stroke="#42474F" stroke-width="1"></path>
+<path class="transition-colors duration-300 opacity-20" d="M75 95 Q100 90 125 95 L120 135 Q100 138 80 135 Z" fill="#2c3138" id="svg-part-back"></path>
+<path class="transition-colors duration-300" d="M82 100 L118 100 L114 150 L86 150 Z" fill="#2c3138" id="svg-part-core" stroke="#42474F" stroke-width="1"></path>
+<path class="transition-colors duration-300" d="M82 165 L100 165 L95 260 L78 255 Z" fill="#2c3138" id="svg-part-legs-l" stroke="#42474F" stroke-width="1"></path>
+<path class="transition-colors duration-300" d="M118 165 L100 165 L105 260 L122 255 Z" fill="#2c3138" id="svg-part-legs-r" stroke="#42474F" stroke-width="1"></path>
+</svg>
+<div class="absolute inset-0 border border-primary-container/20 rounded-full animate-ping pointer-events-none opacity-20"></div>
+</div>
+<!-- Target Muscle Heatmap Readings -->
+<div class="w-full space-y-2 mt-2 pt-3 border-t border-white/5">
+<div class="flex items-center justify-between text-xs font-label-mono-sm">
+<span class="text-secondary" id="label-primary-motor">PRIMARY ACTIVATION (UPPER PEC)</span>
+<span class="text-primary font-bold" id="val-primary-motor">88%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary-container transition-all duration-500 shadow-[0_0_8px_#e60026]" id="bar-primary-motor" style="width: 88%"></div>
+</div>
+<div class="flex items-center justify-between text-xs font-label-mono-sm pt-1">
+<span class="text-secondary/70" id="label-secondary-motor">SYNERGIST MOTOR (ANTERIOR DELTOID)</span>
+<span class="text-secondary font-bold" id="val-secondary-motor">42%</span>
+</div>
+<div class="w-full h-1 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-secondary-fixed-dim transition-all duration-500" id="bar-secondary-motor" style="width: 42%"></div>
+</div>
+</div>
+</div>
+<!-- Right: Protocol Intelligence & Video Demo Overview -->
+<div class="lg:col-span-4 flex flex-col justify-between h-full bg-surface-container-high/60 p-6 rounded-lg border border-white/5">
+<div>
+<div class="flex items-center justify-between pb-3 mb-4 border-b border-white/10">
+<span class="font-headline-lg text-headline-lg uppercase text-primary font-bold" id="data-target-title">CHEST PROTOCOL</span>
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary-container font-label-mono-sm text-xs font-bold" id="data-target-intensity">INTENSITY: MAXIMUM</span>
+</div>
+<div class="space-y-4">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">KEY BIOMECHANICAL CUE:</span>
+<p class="font-body-sm text-body-sm text-secondary/95 mt-1 bg-surface-container-lowest/80 p-3 rounded border border-white/5" id="data-target-cue">
+                Retract and depress scapula prior to unrack. Drive elbows inward during concentric phase to achieve maximal sternal shortening without anterior shoulder impingement.
+              </p>
+</div>
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">RECOMMENDED CADRE TEMPO:</span>
+<p class="font-headline-md text-headline-md uppercase text-on-surface mt-0.5" id="data-target-reps">
+                3-1-1-0 (3s Eccentric • 1s Stretch • Explosive Drive)
+              </p>
+</div>
+<div class="p-3 rounded bg-surface-container-lowest flex items-center justify-between border border-white/5">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">videocam</span>
+<span class="font-label-mono-sm text-xs uppercase text-on-surface font-semibold">3 FEATURED VIDEO DEMOS</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary font-label-mono-sm text-xs">4K / 60FPS</span>
+</div>
+</div>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between gap-3">
+<button class="w-full py-2.5 bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-caps text-label-caps uppercase rounded text-center transition-all shadow-[0_0_20px_rgba(230,0,38,0.35)] flex items-center justify-center gap-2" onclick="openMasterclassModal(currentSelectedMuscle, 0)" type="button">
+<span class="material-symbols-outlined text-base">play_circle</span>
+<span>LAUNCH MASTERCLASS VIDEO</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Sub-Section: Dynamic Video Exercise Demonstrations Grid -->
+<div class="mt-10">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 pb-3 border-b border-white/10 gap-4">
+<div>
+<div class="flex items-center gap-2">
+<span class="font-label-mono-sm text-xs uppercase text-primary font-bold">FEATURED DRILLS</span>
+<span class="text-secondary/40">•</span>
+<span class="font-label-mono-sm text-xs uppercase text-secondary" id="cluster-demo-heading">CHEST / PECTORAL MASTER DEMOS</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface mt-0.5">CALIBRATED VIDEO EXERCISE DEMONSTRATIONS</h3>
+</div>
+<div class="flex items-center gap-3 font-label-mono-sm text-xs text-secondary">
+<span class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span> CLICK PREVIEW TO PLAY FULL HUD
+          </span>
+</div>
+</div>
+<!-- Interactive Cards Grid Container (Populated dynamically) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="exercise-demo-cards-grid">
+<!-- Dynamic cards inserted here by script -->
+</div>
+</div>
+</div>
+<!-- ========================================== -->
+<!-- MODAL: EXERCISE MASTERCLASS VIDEO LIGHTBOX -->
+<!-- ========================================== -->
+<div class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/85 backdrop-blur-md p-4 transition-all duration-300" id="video-demo-modal">
+<div class="relative w-full max-w-4xl bg-surface-container rounded-xl overflow-hidden border border-white/10 shadow-[0_10px_50px_rgba(0,0,0,0.9)] flex flex-col">
+<!-- Modal Header Bar -->
+<div class="p-4 bg-surface-container-high flex items-center justify-between border-b border-white/10">
+<div class="flex items-center gap-3">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container animate-ping"></span>
+<div>
+<span class="font-headline-md text-headline-md uppercase text-on-surface leading-none" id="modal-exercise-title">INCLINE BARBELL PRESS</span>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="font-label-mono-sm text-xs text-primary font-bold uppercase" id="modal-exercise-tag">CHEST • UPPER PEC FOCUS</span>
+<span class="text-secondary/40">•</span>
+<span class="font-label-mono-sm text-xs text-secondary" id="modal-exercise-difficulty">DIFFICULTY: HEAVY COMPOUND</span>
+</div>
+</div>
+</div>
+<button aria-label="Close modal" class="w-9 h-9 rounded bg-surface-container hover:bg-surface-bright text-secondary hover:text-white flex items-center justify-center transition-colors" onclick="closeMasterclassModal()" type="button">
+<span class="material-symbols-outlined text-xl">close</span>
+</button>
+</div>
+<!-- Simulated Video Player Canvas / Frame -->
+<div class="relative w-full aspect-video bg-surface-container-lowest overflow-hidden group">
+<img alt="Exercise Video Frame" class="w-full h-full object-cover grayscale contrast-125 transition-transform duration-700" id="modal-video-poster" src=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0e0e11] via-transparent to-black/40 pointer-events-none"></div>
+<!-- Video Watermark / HUD Overlay -->
+<div class="absolute top-4 left-4 flex items-center gap-2 pointer-events-none">
+<span class="px-2 py-0.5 rounded bg-primary-container/80 text-on-primary-container font-label-caps text-[10px] tracking-wider uppercase font-bold">SPARTAN CADRE 4K</span>
+<span class="px-2 py-0.5 rounded bg-black/60 text-secondary font-label-mono-sm text-[10px] uppercase backdrop-blur-sm">60 FPS LIVE FEED</span>
+</div>
+<div class="absolute top-4 right-4 pointer-events-none">
+<span class="px-2 py-0.5 rounded bg-black/60 text-primary font-label-mono-sm text-[10px] tracking-widest uppercase border border-primary-container/30">BIOMECHANIC HUD ACTIVE</span>
+</div>
+<!-- Center Big Play/Pause Toggle Simulation -->
+<div class="absolute inset-0 flex items-center justify-center">
+<button class="w-16 h-16 rounded-full bg-primary-container/90 hover:bg-primary-container text-on-primary-container flex items-center justify-center shadow-[0_0_30px_rgba(230,0,38,0.7)] hover:scale-110 active:scale-95 transition-all" id="modal-play-btn" onclick="toggleSimulatedPlayback()" type="button">
+<span class="material-symbols-outlined text-4xl" id="modal-play-icon">pause</span>
+</button>
+</div>
+<!-- Bottom Video Scrubber & Playback Controls Bar -->
+<div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-black via-black/80 to-transparent flex flex-col gap-2">
+<!-- Scrubber Progress Bar -->
+<div class="relative w-full h-1.5 bg-white/20 rounded-full cursor-pointer overflow-hidden" onclick="seekSimulatedVideo(event)">
+<div class="h-full bg-primary-container shadow-[0_0_10px_#e60026] transition-all duration-200" id="modal-scrubber-progress" style="width: 38%"></div>
+</div>
+<div class="flex items-center justify-between text-xs font-label-mono-sm text-secondary">
+<div class="flex items-center gap-3">
+<button class="hover:text-primary transition-colors flex items-center" onclick="toggleSimulatedPlayback()" type="button">
+<span class="material-symbols-outlined text-lg" id="modal-mini-play">pause</span>
+</button>
+<span class="text-on-surface font-mono" id="modal-timecode">00:18 / 00:45</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
+<span class="text-primary font-bold uppercase" id="modal-phase-label">ECCENTRIC CONTROL PHASE</span>
+</div>
+<div class="flex items-center gap-3">
+<button class="px-2 py-0.5 rounded bg-surface-container hover:bg-surface-bright text-secondary hover:text-white transition-colors text-[10px] uppercase font-bold" id="btn-speed-toggle" onclick="togglePlaybackSpeed()" type="button">SPEED: 1.0X</button>
+<button class="hover:text-primary transition-colors" onclick="toggleAudioMute()" type="button">
+<span class="material-symbols-outlined text-lg" id="modal-audio-btn">volume_up</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal Coaching & Form Breakdown Content -->
+<div class="p-6 bg-surface-container-high grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+<div class="md:col-span-7 space-y-3">
+<span class="font-label-mono-sm text-xs text-primary uppercase font-bold tracking-widest">EXECUTION PROTOCOL • FORM CHECKLIST:</span>
+<ul class="space-y-2 font-body-sm text-secondary/90" id="modal-checklist-items">
+<!-- Populated dynamically -->
+</ul>
+</div>
+<div class="md:col-span-5 bg-surface-container-lowest p-4 rounded-lg border border-white/5 space-y-3">
+<span class="font-label-mono-sm text-xs text-secondary uppercase font-bold">PRESCRIPTION MATRIX</span>
+<div class="flex justify-between font-label-mono-sm text-xs">
+<span class="text-secondary/70">TARGET INTENSITY:</span>
+<span class="text-primary font-bold" id="modal-target-rpe">RPE 8.5 (1-2 RIR)</span>
+</div>
+<div class="flex justify-between font-label-mono-sm text-xs">
+<span class="text-secondary/70">SET / REP SCHEME:</span>
+<span class="text-on-surface font-bold" id="modal-target-sets">4 Sets × 6-8 Reps</span>
+</div>
+<div class="flex justify-between font-label-mono-sm text-xs">
+<span class="text-secondary/70">REST INTERVAL:</span>
+<span class="text-on-surface font-bold" id="modal-target-rest">150 Seconds</span>
+</div>
+<a class="w-full mt-2 py-2 bg-primary-container/20 hover:bg-primary-container text-primary hover:text-on-primary-container rounded font-label-caps text-xs uppercase tracking-wider text-center transition-colors flex items-center justify-center gap-1.5" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20have%20questions%20regarding%20the%20exercise%20technique%20demonstration." target="_blank">
+<span class="material-symbols-outlined text-sm">chat</span>
+<span>ASK COACH ON WHATSAPP</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 6. HIGH-PERFORMANCE WORKOUT PROGRAMS       -->
+<!-- ========================================== -->
+<section class="w-full py-20 bg-surface-container-lowest relative" id="programs-section">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-primary-container uppercase font-bold tracking-widest">TACTICAL CURRICULUM</span>
+<h2 class="font-headline-xl text-headline-xl uppercase tracking-tight text-on-surface font-extrabold mt-1">
+            WARRIOR PROTOCOLS &amp; <span class="text-primary-container">PROGRAMS</span>
+</h2>
+</div>
+<p class="font-body-md text-body-md text-secondary max-w-md">
+          Structured 12-week progressive macrocycles designed to force adaptation, build bone mineral density, and strip body fat.
+        </p>
+</div>
+<!-- Programs Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Program 1 -->
+<div class="bg-surface-container p-6 rounded-lg flex flex-col justify-between relative group hover:bg-surface-container-high transition-all shadow-xl border border-white/5">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">TIER 01 / BUILD</span>
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary-container font-label-mono-sm text-xs font-bold">MAX HYPERTROPHY</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface leading-tight mb-2">SPARTAN STRENGTH HYPERTROPHY</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-6">
+              Focuses on high mechanical tension, myofibrillar hypertrophy, and scientific muscular fatigue across upper/lower splits.
+            </p>
+<div class="space-y-2 font-label-mono-sm text-xs text-secondary/80 pt-2 border-t border-white/10">
+<div class="flex justify-between"><span>DURATION:</span> <span class="text-on-surface font-bold">12 WEEKS</span></div>
+<div class="flex justify-between"><span>FREQUENCY:</span> <span class="text-on-surface font-bold">5 DAYS / WEEK</span></div>
+<div class="flex justify-between"><span>VOLUME:</span> <span class="text-primary font-bold">HIGH (18-22 SETS)</span></div>
+</div>
+</div>
+<a class="mt-6 w-full py-2.5 bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-caps text-label-caps uppercase rounded text-center transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20am%20interested%20in%20the%20Spartan%20Strength%20Hypertrophy%20Program." target="_blank">
+            ENQUIRE AVAILABILITY
+          </a>
+</div>
+<!-- Program 2 -->
+<div class="bg-surface-container p-6 rounded-lg flex flex-col justify-between relative group hover:bg-surface-container-high transition-all shadow-xl border border-white/5">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">TIER 02 / SHRED</span>
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary-container font-label-mono-sm text-xs font-bold">METABOLIC ENGINE</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface leading-tight mb-2">METABOLIC CONDITIONING</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-6">
+              High-intensity interval bursts paired with sled drags, assault sprints, and heart rate target zones to maximize post-exercise EPOC.
+            </p>
+<div class="space-y-2 font-label-mono-sm text-xs text-secondary/80 pt-2 border-t border-white/10">
+<div class="flex justify-between"><span>DURATION:</span> <span class="text-on-surface font-bold">8 WEEKS</span></div>
+<div class="flex justify-between"><span>FREQUENCY:</span> <span class="text-on-surface font-bold">4 DAYS / WEEK</span></div>
+<div class="flex justify-between"><span>VOLUME:</span> <span class="text-primary font-bold">EXTREME DENSITY</span></div>
+</div>
+</div>
+<a class="mt-6 w-full py-2.5 bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-caps text-label-caps uppercase rounded text-center transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20am%20interested%20in%20the%20Metabolic%20Conditioning%20Program." target="_blank">
+            ENQUIRE AVAILABILITY
+          </a>
+</div>
+<!-- Program 3 -->
+<div class="bg-surface-container p-6 rounded-lg flex flex-col justify-between relative group hover:bg-surface-container-high transition-all shadow-xl border border-white/5">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">TIER 03 / HEAVY</span>
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary-container font-label-mono-sm text-xs font-bold">BIG 3 MASTERY</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface leading-tight mb-2">POWERLIFTING PROTOCOL</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-6">
+              Precision peaking program for the Squat, Bench Press, and Deadlift. Utilizes RPE rate-of-perceived-exertion calculations and velocity tracking.
+            </p>
+<div class="space-y-2 font-label-mono-sm text-xs text-secondary/80 pt-2 border-t border-white/10">
+<div class="flex justify-between"><span>DURATION:</span> <span class="text-on-surface font-bold">16 WEEKS</span></div>
+<div class="flex justify-between"><span>FREQUENCY:</span> <span class="text-on-surface font-bold">4 DAYS / WEEK</span></div>
+<div class="flex justify-between"><span>VOLUME:</span> <span class="text-primary font-bold">SUBMAXIMAL LOAD</span></div>
+</div>
+</div>
+<a class="mt-6 w-full py-2.5 bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-caps text-label-caps uppercase rounded text-center transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20am%20interested%20in%20the%20Powerlifting%20Protocol." target="_blank">
+            ENQUIRE AVAILABILITY
+          </a>
+</div>
+<!-- Program 4 -->
+<div class="bg-surface-container p-6 rounded-lg flex flex-col justify-between relative group hover:bg-surface-container-high transition-all shadow-xl border border-white/5">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">TIER 04 / ATHLETIC</span>
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary-container font-label-mono-sm text-xs font-bold">COMBAT &amp; MOBILITY</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface leading-tight mb-2">AGILITY &amp; CALISTHENICS</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-6">
+              Handstands, muscle-ups, multi-planar deceleration, and dynamic core stability to move with feral speed and balance.
+            </p>
+<div class="space-y-2 font-label-mono-sm text-xs text-secondary/80 pt-2 border-t border-white/10">
+<div class="flex justify-between"><span>DURATION:</span> <span class="text-on-surface font-bold">10 WEEKS</span></div>
+<div class="flex justify-between"><span>FREQUENCY:</span> <span class="text-on-surface font-bold">3 DAYS / WEEK</span></div>
+<div class="flex justify-between"><span>VOLUME:</span> <span class="text-primary font-bold">BODYWEIGHT MASTERY</span></div>
+</div>
+</div>
+<a class="mt-6 w-full py-2.5 bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-caps text-label-caps uppercase rounded text-center transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20am%20interested%20in%20the%20Agility%20and%20Calisthenics%20Program." target="_blank">
+            ENQUIRE AVAILABILITY
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 7. MEMBERSHIPS & PRICING PLANS             -->
+<!-- ========================================== -->
+<section class="w-full py-20 lg:py-28 bg-background relative" id="memberships-section">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col items-center text-center mb-16">
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase tracking-[0.2em]">HONEST TIER COMMITMENT</span>
+<h2 class="font-headline-xl text-headline-xl uppercase tracking-tight text-on-surface font-extrabold max-w-3xl mt-1">
+          CHOOSE YOUR <span class="text-primary-container">WARRIOR ENLISTMENT</span>
+</h2>
+<p class="font-body-md text-body-md text-secondary max-w-2xl mt-2">
+          No hidden admission taxes. No predatory cancellation clauses. Transparent pricing engineered for Madipur Colony and West Delhi fitness seekers.
+        </p>
+</div>
+<!-- Pricing Monoliths Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+<!-- Tier 1: Monthly -->
+<div class="bg-surface-container rounded-xl p-6 flex flex-col justify-between shadow-xl border border-white/5">
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary uppercase mb-2">TIER 01 • INITIATION</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface">WARRIOR PASS</h3>
+<p class="font-body-sm text-body-sm text-secondary/70 mt-1 mb-6">Flexible month-to-month access for focused discipline.</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-secondary font-headline-md">₹</span>
+<span class="font-display-hero text-headline-xl text-on-surface font-extrabold">1,499</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">/ MONTH</span>
+</div>
+<ul class="space-y-3 font-body-sm text-body-sm text-secondary">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Full Open Arena Access</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Free Locker &amp; Showers</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>General Floor Mentorship</span>
+</li>
+<li class="flex items-center gap-2.5 text-secondary/40">
+<span class="material-symbols-outlined text-base">close</span>
+<span>Personal Biometrics Audit</span>
+</li>
+</ul>
+</div>
+<a class="mt-8 w-full py-3 bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-caps text-label-caps uppercase rounded text-center transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20want%20to%20enlist%20for%20the%201-Month%20Warrior%20Pass." target="_blank">
+            JOIN WARRIOR PASS
+          </a>
+</div>
+<!-- Tier 2: Quarterly (Popular) -->
+<div class="bg-surface-container-high rounded-xl p-6 flex flex-col justify-between shadow-2xl relative border-2 border-primary-container scale-105 z-10">
+<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-3 py-1 bg-primary-container text-on-primary-container font-label-caps text-[10px] uppercase tracking-widest rounded-full shadow-[0_0_15px_#e60026]">
+            RECOMMENDED PROTOCOL
+          </div>
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-primary uppercase mb-2">TIER 02 • TRANSFORMATION</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface">SPARTAN STANDARD</h3>
+<p class="font-body-sm text-body-sm text-secondary mt-1 mb-6">The ideal cycle to build tangible muscle and establish consistency.</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-secondary font-headline-md">₹</span>
+<span class="font-display-hero text-headline-xl text-primary font-extrabold">3,799</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">/ 3 MONTHS</span>
+</div>
+<ul class="space-y-3 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary-container text-base">check_circle</span>
+<span>Full Open Arena Access</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary-container text-base">check_circle</span>
+<span>1× Biometric Body Scan</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary-container text-base">check_circle</span>
+<span>Custom Hypertrophy Workout Chart</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary-container text-base">check_circle</span>
+<span>Dedicated Locker Access</span>
+</li>
+</ul>
+</div>
+<a class="mt-8 w-full py-3.5 bg-primary-container hover:bg-tertiary-container text-on-primary-container font-label-caps text-label-caps uppercase rounded text-center transition-all shadow-[0_0_20px_rgba(230,0,38,0.4)]" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20want%20to%20enlist%20for%20the%203-Month%20Spartan%20Standard%20Tier." target="_blank">
+            ENLIST SPARTAN TIER
+          </a>
+</div>
+<!-- Tier 3: Half-Year Legion -->
+<div class="bg-surface-container rounded-xl p-6 flex flex-col justify-between shadow-xl border border-white/5">
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary uppercase mb-2">TIER 03 • LEGION</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface">HALF-YEAR CADRE</h3>
+<p class="font-body-sm text-body-sm text-secondary/70 mt-1 mb-6">Committed athletic rebuild with deep compound strength gains.</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-secondary font-headline-md">₹</span>
+<span class="font-display-hero text-headline-xl text-on-surface font-extrabold">6,499</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">/ 6 MONTHS</span>
+</div>
+<ul class="space-y-3 font-body-sm text-body-sm text-secondary">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Full Open Arena Access</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>2× Biometric Body Scans</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Nutrition &amp; Diet Blueprint</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Priority Power Rack Booking</span>
+</li>
+</ul>
+</div>
+<a class="mt-8 w-full py-3 bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-caps text-label-caps uppercase rounded text-center transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20want%20to%20enlist%20for%20the%206-Month%20Half-Year%20Cadre." target="_blank">
+            JOIN HALF-YEAR
+          </a>
+</div>
+<!-- Tier 4: Immortal Annual -->
+<div class="bg-surface-container rounded-xl p-6 flex flex-col justify-between shadow-xl border border-white/5">
+<div>
+<div class="font-label-mono-sm text-label-mono-sm text-secondary uppercase mb-2">TIER 04 • IMMORTAL</div>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface">ANNUAL IMMORTAL</h3>
+<p class="font-body-sm text-body-sm text-secondary/70 mt-1 mb-6">The ultimate lifestyle commitment. Best financial economy.</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-secondary font-headline-md">₹</span>
+<span class="font-display-hero text-headline-xl text-on-surface font-extrabold">10,999</span>
+<span class="font-label-mono-sm text-label-mono-sm text-secondary">/ YEAR</span>
+</div>
+<ul class="space-y-3 font-body-sm text-body-sm text-secondary">
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Unlimited 365 Days Access</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Quarterly Biometric Checkups</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>Complimentary Spartan Jersey</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+<span>1-Month Pause Flexibility</span>
+</li>
+</ul>
+</div>
+<a class="mt-8 w-full py-3 bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-caps text-label-caps uppercase rounded text-center transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20want%20to%20enlist%20for%20the%20Annual%20Immortal%20Plan." target="_blank">
+            JOIN ANNUAL
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 8. TRAINER SHOWCASE & COACHING PHILOSOPHY -->
+<!-- ========================================== -->
+<section class="w-full py-20 bg-surface-container-lowest relative" id="trainers-section">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-primary-container uppercase font-bold tracking-widest">CADRE INSTRUCTORS</span>
+<h2 class="font-headline-xl text-headline-xl uppercase tracking-tight text-on-surface font-extrabold mt-1">
+            MASTER COACHES OF <span class="text-primary-container">THE ARENA</span>
+</h2>
+</div>
+<p class="font-body-md text-body-md text-secondary max-w-md">
+          Mentors who live what they teach. Verified certifications, strict biomechanics enforcement, and zero gimmicks.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Coach 1 -->
+<div class="bg-surface-container rounded-lg overflow-hidden flex flex-col group shadow-xl">
+<div class="relative h-80 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover grayscale contrast-125 group-hover:scale-105 transition-transform duration-500" data-alt="Portrait of a muscular Indian strength coach standing in front of heavy barbell racks with arms crossed, intense determined gaze, dramatic red rim lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0APC0iowIgKgaTgPwxWDWB2EnVSHHfoZhP4Vj0Wf89_JpWJviWR3TR2CDy9jReUSQfWDN368XjXGi5TU9qDSfgJiZP8W-2j9I4kg9tVIVX8qjRN1OEj0fN_bE2moFxd24jLKzwoN_YulIC-ubbGtxWTVFntC4wfqYcoAPgMR7YP8MRRttTlfLNtQh5oKY6uEis3etINLHxJA47YWrgjs6TmCsgQ3GSIu6LGGJ59h5I9FaT6MZZ7Zk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4">
+<span class="px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-mono-sm text-xs font-bold uppercase">HEAD CADRE</span>
+</div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface leading-tight">VIKRAM "THE ANVIL" SHARMA</h3>
+<p class="font-label-mono-sm text-label-mono-sm text-primary uppercase mt-1">STRENGTH &amp; HYPERTROPHY SPECIALIST</p>
+<p class="font-body-sm text-body-sm text-secondary mt-3">
+              10+ years in West Delhi competitive powerlifting. Specializes in barbell mechanics, plate-loaded overload, and postural stabilization.
+            </p>
+<div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between text-secondary/70 font-label-mono-sm text-xs">
+<span>EXP: 10+ YEARS</span>
+<span>180+ ATHLETES REBUILT</span>
+</div>
+</div>
+</div>
+<!-- Coach 2 -->
+<div class="bg-surface-container rounded-lg overflow-hidden flex flex-col group shadow-xl">
+<div class="relative h-80 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover grayscale contrast-125 group-hover:scale-105 transition-transform duration-500" data-alt="Athletic male trainer holding battle ropes in an intense training posture, athletic build, cinematic dark gym lighting with red background accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6aOqIQfLJvO_-QliCiivtUN8W7_XQdtYUBDLXQAsxNGu5RrcJNcgPgaHA7ENiY61i_D_fwaqVAJU9IPPPd4Ylz4yVkBvyYPJVWzUl63heI2U1eAJEsDIyErEpEp7ZobfZOKsIvSRWt1YRrURDMYtvqyXxue2gM3szp1L7a1jUrRWKWMbugBJsflGJ_cSJ8Sdh-HXxu1A0w1k9L44GkdH_W_CtGRUIoOY6WCV6p5UAX-DHkWnj-Yhe"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4">
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-secondary-fixed font-label-mono-sm text-xs font-bold uppercase">FUNCTIONAL LEAD</span>
+</div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface leading-tight">ROHIT MALIK</h3>
+<p class="font-label-mono-sm text-label-mono-sm text-primary uppercase mt-1">METABOLIC CONDITIONING &amp; CALISTHENICS</p>
+<p class="font-body-sm text-body-sm text-secondary mt-3">
+              Former national level track athlete. Expert in VO2 max optimization, fast-twitch motor unit recruitment, and sled speed protocols.
+            </p>
+<div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between text-secondary/70 font-label-mono-sm text-xs">
+<span>EXP: 7+ YEARS</span>
+<span>HIIT MASTER TRAINER</span>
+</div>
+</div>
+</div>
+<!-- Coach 3 -->
+<div class="bg-surface-container rounded-lg overflow-hidden flex flex-col group shadow-xl">
+<div class="relative h-80 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover grayscale contrast-125 group-hover:scale-105 transition-transform duration-500" data-alt="Athletic female fitness coach standing beside Olympic barbells with a sports clipboard, confident inspiring smile, industrial gym lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL9mJDzQ8f47dXQ3jhiXtUohIXDdrveNzsj9W9T8UhTnQq2eJaVNsyvhW20X2vXlDF35mSXbmb0PiYiYUdlFTZhJtZtEhBhQxt529578p3bvfKs0Py4_Nu53BurHozHjDzg6QlzApTVmdTEHwKiTqxRJZpjq_LOIjJxBloFDE5d9Pp6AZdIIBzugXhI99GI17CB7hD4Qvg-b2aU_3nYaxGvXk35hpf-xvZY452RHR18BLxLH4NowLJ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4">
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-secondary-fixed font-label-mono-sm text-xs font-bold uppercase">NUTRITION &amp; BODY RECOMP</span>
+</div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface leading-tight">PRIYA VERMA</h3>
+<p class="font-label-mono-sm text-label-mono-sm text-primary uppercase mt-1">BIOMECHANICAL REHAB &amp; NUTRITION</p>
+<p class="font-body-sm text-body-sm text-secondary mt-3">
+              Certified Sports Nutritionist (ISSA). Master in macronutrient partitioning, fat-loss kinetics, and female strength conditioning.
+            </p>
+<div class="mt-4 pt-4 border-t border-white/5 flex items-center justify-between text-secondary/70 font-label-mono-sm text-xs">
+<span>EXP: 6+ YEARS</span>
+<span>CERTIFIED ISSA COACH</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 9. WEEKLY TRAINING SCHEDULE & TIMETABLE    -->
+<!-- ========================================== -->
+<section class="w-full py-20 bg-background relative" id="schedule-section">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase tracking-widest">TACTICAL TIMETABLE</span>
+<h2 class="font-headline-xl text-headline-xl uppercase tracking-tight text-on-surface font-extrabold mt-1">
+            WEEKLY TRAINING <span class="text-primary-container">SLOTS</span>
+</h2>
+</div>
+<div class="flex items-center gap-2 font-label-mono-sm text-xs text-secondary">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span>OPEN ARENA RUNS 05:30 AM TO 10:30 PM DAILY</span>
+</div>
+</div>
+<!-- Day Filter Pills -->
+<div class="flex items-center gap-2 overflow-x-auto pb-4 mb-6 border-b border-white/10 no-scrollbar">
+<button class="sched-filter-btn px-5 py-2 rounded bg-primary-container text-on-primary-container font-label-mono-sm text-xs uppercase tracking-wider font-bold transition-colors" data-day="mon" onclick="filterSchedule('mon')" type="button">MON</button>
+<button class="sched-filter-btn px-5 py-2 rounded bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface font-label-mono-sm text-xs uppercase tracking-wider transition-colors" data-day="tue" onclick="filterSchedule('tue')" type="button">TUE</button>
+<button class="sched-filter-btn px-5 py-2 rounded bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface font-label-mono-sm text-xs uppercase tracking-wider transition-colors" data-day="wed" onclick="filterSchedule('wed')" type="button">WED</button>
+<button class="sched-filter-btn px-5 py-2 rounded bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface font-label-mono-sm text-xs uppercase tracking-wider transition-colors" data-day="thu" onclick="filterSchedule('thu')" type="button">THU</button>
+<button class="sched-filter-btn px-5 py-2 rounded bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface font-label-mono-sm text-xs uppercase tracking-wider transition-colors" data-day="fri" onclick="filterSchedule('fri')" type="button">FRI</button>
+<button class="sched-filter-btn px-5 py-2 rounded bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface font-label-mono-sm text-xs uppercase tracking-wider transition-colors" data-day="sat" onclick="filterSchedule('sat')" type="button">SAT</button>
+<button class="sched-filter-btn px-5 py-2 rounded bg-surface-container hover:bg-surface-container-high text-secondary hover:text-on-surface font-label-mono-sm text-xs uppercase tracking-wider transition-colors" data-day="sun" onclick="filterSchedule('sun')" type="button">SUN</button>
+</div>
+<!-- Schedule Slots Table -->
+<div class="space-y-3" id="schedule-slots-container">
+<!-- Monday Slots Default -->
+<div class="bg-surface-container p-4 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-4">
+<div class="w-16 text-center py-2 bg-surface-container-lowest rounded">
+<span class="font-label-mono-sm text-xs text-primary font-bold">06:00 AM</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md uppercase text-on-surface leading-tight">SPARTAN MORNING POWER HOUR</h4>
+<p class="font-body-sm text-body-sm text-secondary">Coach Vikram Sharma • Compound Barbell Protocol</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-secondary font-label-mono-sm text-xs">CAPACITY: 85%</span>
+<a class="px-4 py-2 bg-primary-container/20 hover:bg-primary-container text-primary hover:text-on-primary-container rounded font-label-caps text-xs uppercase transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20would%20like%20to%20reserve%20a%20slot%20for%20Morning%20Power%20Hour." target="_blank">RESERVE</a>
+</div>
+</div>
+<div class="bg-surface-container p-4 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-4">
+<div class="w-16 text-center py-2 bg-surface-container-lowest rounded">
+<span class="font-label-mono-sm text-xs text-secondary font-bold">08:00 AM</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md uppercase text-on-surface leading-tight">TACTICAL FUNCTIONAL BOOTCAMP</h4>
+<p class="font-body-sm text-body-sm text-secondary">Coach Rohit Malik • Turf, Sleds &amp; Kettlebells</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-secondary font-label-mono-sm text-xs">CAPACITY: 70%</span>
+<a class="px-4 py-2 bg-primary-container/20 hover:bg-primary-container text-primary hover:text-on-primary-container rounded font-label-caps text-xs uppercase transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20would%20like%20to%20reserve%20a%20slot%20for%20Tactical%20Functional%20Bootcamp." target="_blank">RESERVE</a>
+</div>
+</div>
+<div class="bg-surface-container p-4 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-4">
+<div class="w-16 text-center py-2 bg-surface-container-lowest rounded">
+<span class="font-label-mono-sm text-xs text-secondary font-bold">06:00 PM</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md uppercase text-on-surface leading-tight">EVENING HYPERTROPHY CIRCUIT</h4>
+<p class="font-body-sm text-body-sm text-secondary">Coach Priya Verma • High Volume Chest &amp; Triceps</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-primary font-label-mono-sm text-xs">CAPACITY: 92%</span>
+<a class="px-4 py-2 bg-primary-container/20 hover:bg-primary-container text-primary hover:text-on-primary-container rounded font-label-caps text-xs uppercase transition-colors" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20would%20like%20to%20reserve%20a%20slot%20for%20Evening%20Hypertrophy%20Circuit." target="_blank">RESERVE</a>
+</div>
+</div>
+<div class="bg-surface-container p-4 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-4">
+<div class="w-16 text-center py-2 bg-surface-container-lowest rounded">
+<span class="font-label-mono-sm text-xs text-primary font-bold">08:00 PM</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md uppercase text-on-surface leading-tight">OPEN WARRIOR ARENA</h4>
+<p class="font-body-sm text-body-sm text-secondary">Independent Lifting with Cadre Supervision</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="px-2.5 py-1 rounded bg-surface-container-highest text-secondary font-label-mono-sm text-xs">OPEN TO ALL TIERS</span>
+<span class="font-label-mono-sm text-xs text-secondary uppercase">UNRESTRICTED</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- 10. FAQ ACCORDION & LOCATION / BOOKING     -->
+<!-- ========================================== -->
+<section class="w-full py-20 lg:py-28 bg-surface-container-lowest relative" id="faq-contact-section">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- FAQ Left Column (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col">
+<span class="font-label-mono-sm text-label-mono-sm text-primary-container uppercase font-bold tracking-widest">CLARITY &amp; PROTOCOL</span>
+<h2 class="font-headline-xl text-headline-xl uppercase tracking-tight text-on-surface font-extrabold mt-1 mb-8">
+            FREQUENTLY ANSWERED <span class="text-primary-container">QUESTIONS</span>
+</h2>
+<div class="space-y-3" id="faq-accordion-group">
+<!-- FAQ Item 1 -->
+<div class="bg-surface-container rounded-lg overflow-hidden border border-white/5">
+<button class="w-full p-4 text-left flex items-center justify-between font-headline-md text-headline-md uppercase text-on-surface hover:text-primary transition-colors" onclick="toggleFaq(this)" type="button">
+<span>CAN BEGINNERS SURVIVE AT SPARTAN GYM?</span>
+<span class="material-symbols-outlined text-primary transition-transform duration-200">add</span>
+</button>
+<div class="faq-content hidden px-4 pb-4 font-body-sm text-body-sm text-secondary border-t border-white/5 pt-2">
+                Yes. Every single newcomer receives a comprehensive equipment walk-through and foundational biomechanical calibration by our on-duty cadre coaches so you train safe and injury-free.
+              </div>
+</div>
+<!-- FAQ Item 2 -->
+<div class="bg-surface-container rounded-lg overflow-hidden border border-white/5">
+<button class="w-full p-4 text-left flex items-center justify-between font-headline-md text-headline-md uppercase text-on-surface hover:text-primary transition-colors" onclick="toggleFaq(this)" type="button">
+<span>WHAT ARE THE EXACT GYM OPERATING HOURS?</span>
+<span class="material-symbols-outlined text-primary transition-transform duration-200">add</span>
+</button>
+<div class="faq-content hidden px-4 pb-4 font-body-sm text-body-sm text-secondary border-t border-white/5 pt-2">
+                Monday to Saturday we run from 05:30 AM to 10:30 PM. On Sundays, the arena operates a concentrated power session from 07:00 AM to 02:00 PM.
+              </div>
+</div>
+<!-- FAQ Item 3 -->
+<div class="bg-surface-container rounded-lg overflow-hidden border border-white/5">
+<button class="w-full p-4 text-left flex items-center justify-between font-headline-md text-headline-md uppercase text-on-surface hover:text-primary transition-colors" onclick="toggleFaq(this)" type="button">
+<span>IS THERE DEDICATED PARKING IN MADIPUR?</span>
+<span class="material-symbols-outlined text-primary transition-transform duration-200">add</span>
+</button>
+<div class="faq-content hidden px-4 pb-4 font-body-sm text-body-sm text-secondary border-t border-white/5 pt-2">
+                Yes, we have dedicated two-wheeler parking directly outside our arena facade, and ample four-wheeler parking bays along the main Madipur Colony station access lane.
+              </div>
+</div>
+<!-- FAQ Item 4 -->
+<div class="bg-surface-container rounded-lg overflow-hidden border border-white/5">
+<button class="w-full p-4 text-left flex items-center justify-between font-headline-md text-headline-md uppercase text-on-surface hover:text-primary transition-colors" onclick="toggleFaq(this)" type="button">
+<span>DO YOU OFFER COMPLIMENTARY TRIAL PASSES?</span>
+<span class="material-symbols-outlined text-primary transition-transform duration-200">add</span>
+</button>
+<div class="faq-content hidden px-4 pb-4 font-body-sm text-body-sm text-secondary border-t border-white/5 pt-2">
+                Yes! We offer a 1-day complimentary Day Trial Pass for verified New Delhi residents looking to test the heavy iron racks and atmosphere. Reach out via WhatsApp below to reserve your slot.
+              </div>
+</div>
+</div>
+</div>
+<!-- Location & Direct Desk / Booking Column (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col gap-6" id="location-section">
+<div class="bg-surface-container p-6 lg:p-8 rounded-xl border border-primary-container/20 shadow-2xl">
+<div class="flex items-center justify-between mb-6">
+<div>
+<span class="font-label-mono-sm text-label-mono-sm text-primary uppercase">MADIPUR COLONY HEADQUARTERS</span>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface">LOCATE THE ARENA</h3>
+</div>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-surface-container-high text-on-surface font-label-mono-sm text-xs hover:bg-surface-bright transition-colors" href="https://maps.google.com" target="_blank">
+<span class="material-symbols-outlined text-sm">directions</span>
+<span>OPEN MAPS</span>
+</a>
+</div>
+<!-- Google Maps Static Pipeline Representation -->
+<div class="w-full h-52 bg-cover bg-center rounded-lg relative overflow-hidden mb-6 shadow-inner" data-location="Madipur Colony, New Delhi, India" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAwI_aEwR0forww2ak4BLiDQJr21KzSqfArVHHHl4WIEA3d6opYrFXknsTpd4_p0gXVcMJOu-s-zqaSLCzV2wlzPaDgjPb9QobdYD0wPwbElDc1CWTtVgAn5WXytV2C4RgUL4EeGvVweXZJBOM4aY4Y1WUw9zHpmO6lZvgNxz2EtY3chTu7SDh_jFedGRWhFNnGAIa2cKyM0vEZQ51Mjb3sRMrhmui0jCF-WVLo-7KftXcR1IGvEyqp')">
+<div class="absolute inset-0 bg-background/30 backdrop-blur-[1px]"></div>
+<div class="absolute bottom-3 left-3 px-3 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-md flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-label-mono-sm text-xs text-on-surface font-bold uppercase">MADIPUR METRO SECTOR • NEW DELHI</span>
+</div>
+</div>
+<!-- Quick Action Touchpoints -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+<a class="p-4 rounded bg-primary-container hover:bg-tertiary-container text-on-primary-container flex items-center justify-center gap-2 font-label-caps text-label-caps uppercase tracking-wider transition-all shadow-[0_0_20px_rgba(230,0,38,0.35)]" href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20would%20like%20to%20enquire%20about%20a%20free%20trial%20session%20and%20membership." target="_blank">
+<span class="material-symbols-outlined text-xl">chat</span>
+<span>WHATSAPP INSTANT DESK</span>
+</a>
+<a class="p-4 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface flex items-center justify-center gap-2 font-label-caps text-label-caps uppercase tracking-wider transition-colors border border-white/5" href="tel:+911149207777">
+<span class="material-symbols-outlined text-xl">phone_in_talk</span>
+<span>DIRECT CALL LINE</span>
+</a>
+</div>
+<!-- Interactive Trial Booking Form with Client-Side Validation -->
+<form class="bg-surface-container-low p-6 rounded-lg border border-white/5" id="trial-enlist-form" onsubmit="handleTrialSubmit(event)">
+<div class="font-headline-md text-headline-md uppercase text-on-surface mb-1">CLAIM 1-DAY WARRIOR TRIAL</div>
+<p class="font-body-sm text-body-sm text-secondary mb-4">Leave your credentials. Our desk cadre will confirm your training pass within 15 minutes.</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+<div>
+<label class="block font-label-mono-sm text-xs text-secondary uppercase mb-1">YOUR FULL NAME</label>
+<input class="w-full px-3.5 py-2.5 rounded bg-[#0B0B0E] border border-[#262933] text-[#D4D8E2] placeholder-[#8C92A4] font-body-md text-sm focus:outline-none focus:border-primary-container transition-colors" id="trial-name" placeholder="e.g. Arjun Dev" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-mono-sm text-xs text-secondary uppercase mb-1">WHATSAPP / PHONE NUMBER</label>
+<input class="w-full px-3.5 py-2.5 rounded bg-[#0B0B0E] border border-[#262933] text-[#D4D8E2] placeholder-[#8C92A4] font-body-md text-sm focus:outline-none focus:border-primary-container transition-colors" id="trial-phone" placeholder="+91 98765 43210" required="" type="tel"/>
+</div>
+</div>
+<div class="mb-4">
+<label class="block font-label-mono-sm text-xs text-secondary uppercase mb-1">PREFERRED TRAINING TIME</label>
+<select class="w-full px-3.5 py-2.5 rounded bg-[#0B0B0E] border border-[#262933] text-[#D4D8E2] font-body-md text-sm focus:outline-none focus:border-primary-container transition-colors" id="trial-time">
+<option value="morning">Morning Cadre (06:00 AM - 10:00 AM)</option>
+<option value="afternoon">Mid-Day Focus (12:00 PM - 04:00 PM)</option>
+<option value="evening">Evening Power Surge (05:30 PM - 09:30 PM)</option>
+</select>
+</div>
+<button class="w-full py-3 bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-caps text-label-caps uppercase rounded text-center transition-all duration-200" type="submit">
+                CONFIRM PASS RESERVATION
+              </button>
+<div class="hidden mt-3 p-3 rounded bg-primary-container/20 text-primary font-label-mono-sm text-xs text-center" id="trial-success-msg">
+                WARRIOR PASS LOGGED! REDIRECTING TO WHATSAPP DESK...
+              </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SCRIPT: INTERACTIVITY & WEB AUDIO SYNTH    -->
+<!-- ========================================== -->
+<script>
+    // 1. PRELOADER LOGIC & SESSION CHECK
+    function initPreloader() {
+      const preloader = document.getElementById('spartan-preloader');
+      const circle = document.getElementById('preloader-circle');
+      const pctText = document.getElementById('preloader-pct');
+      const enterBtn = document.getElementById('btn-enter-arena');
+      
+      // If user has visited in current session, dismiss faster
+      const hasVisited = sessionStorage.getItem('spartan_visited');
+      let progress = 0;
+      const speed = hasVisited ? 15 : 25;
+
+      const interval = setInterval(() => {
+        progress += Math.floor(Math.random() * 8) + 4;
+        if (progress >= 100) {
+          progress = 100;
+          clearInterval(interval);
+          if (hasVisited) {
+            dismissPreloader();
+          }
+        }
+        if (circle) {
+          const offset = 276 - (276 * progress) / 100;
+          circle.style.strokeDashoffset = offset;
+        }
+        if (pctText) {
+          pctText.textContent = progress + '%';
+        }
+      }, speed);
+
+      if (enterBtn) {
+        enterBtn.addEventListener('click', () => {
+          dismissPreloader();
+          playGymDronePulse();
+        });
+      }
+    }
+
+    function dismissPreloader() {
+      const preloader = document.getElementById('spartan-preloader');
+      if (preloader) {
+        preloader.style.opacity = '0';
+        setTimeout(() => {
+          preloader.style.display = 'none';
+          sessionStorage.setItem('spartan_visited', 'true');
+        }, 700);
+      }
+    }
+
+    // 2. INTERACTIVE 3D MUSCLE EXPLORER DATA
+    const muscleData = {
+      chest: {
+        title: "CHEST PROTOCOL",
+        intensity: "INTENSITY: MAXIMUM",
+        exercises: "Incline Barbell Press, Heavy Dumbbell Squeeze, Weighted Dips",
+        reps: "4 Sets × 6-8 Reps (Mechanical Tension) + 2 Back-off Dropsets",
+        cue: "Retract and depress scapula prior to unrack. Drive elbows inwards during concentric phase to achieve maximal sternal shortening without anterior shoulder impingement.",
+        svgTarget: "svg-part-chest"
+      },
+      back: {
+        title: "LAT & TRAP COMBAT",
+        intensity: "INTENSITY: BRUTAL",
+        exercises: "Pendlay Barbell Rows, Neutral Grip Pulldowns, Chest-Supported Rows",
+        reps: "5 Sets × 8-10 Reps (Full Squeeze Pause at Peak Contraction)",
+        cue: "Initiate pull from the latissimus dorsi, not biceps. Pull elbows toward your pockets, keep ribs pulled down, and fight the negative for 3 slow seconds.",
+        svgTarget: "svg-part-back"
+      },
+      shoulders: {
+        title: "DELTOID CANNONBALL",
+        intensity: "INTENSITY: HIGH DENSITY",
+        exercises: "Standing Overhead Military Press, Cable Lateral Sweep, Face Pulls",
+        reps: "4 Sets × 8-12 Reps + Triple Dropset Finisher on Lateral Delt",
+        cue: "Lock glutes and brace core during overhead pressing to preserve lumbar spine. Tilt dumbbells slightly downward during lateral abductions for pure medial head recruitment.",
+        svgTarget: "svg-part-shoulders"
+      },
+      arms: {
+        title: "BICEP & TRICEP MATRIX",
+        intensity: "INTENSITY: ELEVATED",
+        exercises: "Incline Dumbbell Curls, EZ-Bar Skullcrushers, Cable Rope Extensions",
+        reps: "4 Sets × 10-12 Reps Supersetted for Maximal Blood Sump",
+        cue: "Keep elbows glued to the sagittal plane. Do not allow shoulder flexion to rob tension from the bicep peak or tricep lateral head.",
+        svgTarget: "svg-part-arms-l"
+      },
+      legs: {
+        title: "QUAD & POSTERIOR DRIVE",
+        intensity: "INTENSITY: TITANIC",
+        exercises: "Low-Bar Back Squats, Romanian Deadlifts, Bulgarian Split Squats",
+        reps: "5 Sets × 5 Reps (Compound Heavy) followed by 20-Rep Hack Squat Burn",
+        cue: "Root feet firmly using three points of contact (heel, big toe, pinky toe). Screw feet into the floor to externalize hip torque and break 90-degree femur parallel.",
+        svgTarget: "svg-part-legs-l"
+      }
+    };
+
+    function selectMuscle(muscleKey) {
+      const data = muscleData[muscleKey];
+      if (!data) return;
+
+      // Update text HUD
+      document.getElementById('data-target-title').textContent = data.title;
+      document.getElementById('data-target-intensity').textContent = data.intensity;
+      document.getElementById('data-target-exercises').textContent = data.exercises;
+      document.getElementById('data-target-reps').textContent = data.reps;
+      document.getElementById('data-target-cue').textContent = data.cue;
+
+      // Update button active state
+      document.querySelectorAll('.muscle-btn').forEach(btn => {
+        const isCurrent = btn.getAttribute('data-muscle') === muscleKey;
+        btn.classList.toggle('bg-surface-container-high', isCurrent);
+        btn.classList.toggle('bg-surface-container', !isCurrent);
+        btn.classList.toggle('border-l-4', isCurrent);
+        btn.classList.toggle('border-primary-container', isCurrent);
+        btn.classList.toggle('text-on-surface', isCurrent);
+        btn.classList.toggle('text-secondary', !isCurrent);
+        const ind = btn.querySelector('.check-indicator');
+        if (ind) ind.classList.toggle('opacity-100', isCurrent);
+        if (ind) ind.classList.toggle('opacity-0', !isCurrent);
+      });
+
+      // Update SVG highlights
+      const allSvgParts = ['svg-part-chest', 'svg-part-shoulders', 'svg-part-shoulders-r', 'svg-part-arms-l', 'svg-part-arms-r', 'svg-part-back', 'svg-part-legs-l', 'svg-part-legs-r'];
+      allSvgParts.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.setAttribute('fill', '#2c3138');
+          el.setAttribute('stroke', '#42474F');
+          el.style.fillOpacity = '1';
+        }
+      });
+
+      // Highlight chosen part
+      if (muscleKey === 'chest') {
+        const c = document.getElementById('svg-part-chest');
+        if (c) { c.setAttribute('fill', '#E60026'); c.setAttribute('stroke', '#ffb3ae'); }
+      } else if (muscleKey === 'shoulders') {
+        const s1 = document.getElementById('svg-part-shoulders');
+        const s2 = document.getElementById('svg-part-shoulders-r');
+        if (s1) { s1.setAttribute('fill', '#E60026'); s1.setAttribute('stroke', '#ffb3ae'); }
+        if (s2) { s2.setAttribute('fill', '#E60026'); s2.setAttribute('stroke', '#ffb3ae'); }
+      } else if (muscleKey === 'arms') {
+        const a1 = document.getElementById('svg-part-arms-l');
+        const a2 = document.getElementById('svg-part-arms-r');
+        if (a1) { a1.setAttribute('fill', '#E60026'); a1.setAttribute('stroke', '#ffb3ae'); }
+        if (a2) { a2.setAttribute('fill', '#E60026'); a2.setAttribute('stroke', '#ffb3ae'); }
+      } else if (muscleKey === 'back') {
+        const b = document.getElementById('svg-part-back');
+        if (b) { b.setAttribute('fill', '#E60026'); b.style.opacity = '1'; }
+      } else if (muscleKey === 'legs') {
+        const l1 = document.getElementById('svg-part-legs-l');
+        const l2 = document.getElementById('svg-part-legs-r');
+        if (l1) { l1.setAttribute('fill', '#E60026'); l1.setAttribute('stroke', '#ffb3ae'); }
+        if (l2) { l2.setAttribute('fill', '#E60026'); l2.setAttribute('stroke', '#ffb3ae'); }
+      }
+    }
+
+    // 3. WEEKLY SCHEDULE DAY FILTER
+    const scheduleByDay = {
+      mon: [
+        { time: "06:00 AM", title: "SPARTAN MORNING POWER HOUR", sub: "Coach Vikram Sharma • Compound Barbell Protocol", cap: "85%", primary: true },
+        { time: "08:00 AM", title: "TACTICAL FUNCTIONAL BOOTCAMP", sub: "Coach Rohit Malik • Turf, Sleds & Kettlebells", cap: "70%", primary: false },
+        { time: "06:00 PM", title: "EVENING HYPERTROPHY CIRCUIT", sub: "Coach Priya Verma • High Volume Chest & Triceps", cap: "92%", primary: true },
+        { time: "08:00 PM", title: "OPEN WARRIOR ARENA", sub: "Independent Lifting with Cadre Supervision", cap: "OPEN", primary: false }
+      ],
+      tue: [
+        { time: "06:00 AM", title: "DEADLIFT & POSTERIOR DOMINANCE", sub: "Coach Vikram Sharma • Heavy Pull Mechanics", cap: "90%", primary: true },
+        { time: "09:00 AM", title: "CALISTHENICS DRILLS & CORE", sub: "Coach Rohit Malik • Gymnastic Rings & Levers", cap: "60%", primary: false },
+        { time: "06:30 PM", title: "LATISSIMUS BACK REBUILD", sub: "Coach Priya Verma • Strict Horizontal & Vertical Rows", cap: "88%", primary: true },
+        { time: "08:30 PM", title: "OPEN IRON PROTOCOL", sub: "Free Floor Access For Members", cap: "OPEN", primary: false }
+      ],
+      wed: [
+        { time: "06:00 AM", title: "MID-WEEK METABOLIC SURGE", sub: "Coach Rohit Malik • Assault Bike & Rower Intervals", cap: "95%", primary: true },
+        { time: "10:00 AM", title: "DELTOID 3D EXPANSION", sub: "Coach Vikram Sharma • Overhead Press Calibration", cap: "65%", primary: false },
+        { time: "06:00 PM", title: "WARRIOR HIIT CONDITIONING", sub: "Coach Rohit Malik • High Density Sled Runs", cap: "80%", primary: true },
+        { time: "08:00 PM", title: "OPEN ARENA NIGHT", sub: "Unsupervised Iron Focus", cap: "OPEN", primary: false }
+      ],
+      thu: [
+        { time: "06:00 AM", title: "SQUAT PEAK PERFORMANCE", sub: "Coach Vikram Sharma • Depth, Drive & Quad Overload", cap: "96%", primary: true },
+        { time: "08:30 AM", title: "MOBILITY & ARTHRO-HEALTH", sub: "Coach Priya Verma • Joint Flossing & Hip Openers", cap: "50%", primary: false },
+        { time: "06:30 PM", title: "HEAVY LEG DESTROYER", sub: "Coach Vikram Sharma • Hamstrings, Glutes & Calves", cap: "94%", primary: true },
+        { time: "08:30 PM", title: "OPEN ARENA SESSIONS", sub: "Evening Regulated Access", cap: "OPEN", primary: false }
+      ],
+      fri: [
+        { time: "06:00 AM", title: "ARM COMBAT & CORE ISOLATION", sub: "Coach Priya Verma • Peak Bicep & Tricep Sets", cap: "80%", primary: false },
+        { time: "08:00 AM", title: "TACTICAL HIIT ACCELERATOR", sub: "Coach Rohit Malik • Aerobic Threshold Sprint Deck", cap: "75%", primary: true },
+        { time: "06:00 PM", title: "FRIDAY NIGHT POWER SURGE", sub: "All Cadre Instructors • High Octane Community Lift", cap: "98%", primary: true },
+        { time: "08:00 PM", title: "OPEN ARENA", sub: "Self-Paced Training", cap: "OPEN", primary: false }
+      ],
+      sat: [
+        { time: "07:00 AM", title: "SPARTAN SUPER-TOTAL CHALLENGE", sub: "Full Arena Coaches • Squat, Bench & Deadlift Max", cap: "100%", primary: true },
+        { time: "10:00 AM", title: "STRONGMAN TURF RUN", sub: "Coach Rohit Malik • Farmer's Walks & Sled Sprints", cap: "85%", primary: true },
+        { time: "05:00 PM", title: "WEEKEND VOLUME BLAST", sub: "Coach Priya Verma • Whole Body Aesthetic Hypertrophy", cap: "82%", primary: false },
+        { time: "07:30 PM", title: "WARRIOR WIND-DOWN", sub: "Foam Rolling, Percussion & Sauna Access", cap: "OPEN", primary: false }
+      ],
+      sun: [
+        { time: "07:30 AM", title: "SUNDAY IRON MASS (OPEN ARENA)", sub: "Independent Athlete Rituals & Lifting", cap: "70%", primary: true },
+        { time: "10:30 AM", title: "ACTIVE RECOVERY & STRETCH SPA", sub: "Supervised Recovery Deck Protocol", cap: "60%", primary: false },
+        { time: "01:00 PM", title: "ARENA CLOSING PROTOCOL", sub: "Sanitization & Deep Iron Maintenance", cap: "SHUT", primary: false }
+      ]
+    };
+
+    function filterSchedule(dayKey) {
+      document.querySelectorAll('.sched-filter-btn').forEach(b => {
+        const active = b.getAttribute('data-day') === dayKey;
+        b.classList.toggle('bg-primary-container', active);
+        b.classList.toggle('text-on-primary-container', active);
+        b.classList.toggle('bg-surface-container', !active);
+        b.classList.toggle('text-secondary', !active);
+      });
+
+      const slots = scheduleByDay[dayKey] || [];
+      const container = document.getElementById('schedule-slots-container');
+      if (!container) return;
+
+      container.innerHTML = slots.map(s => `
+        <div class="bg-surface-container p-4 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-surface-container-high transition-colors">
+          <div class="flex items-center gap-4">
+            <div class="w-16 text-center py-2 bg-surface-container-lowest rounded">
+              <span class="font-label-mono-sm text-xs ${s.primary ? 'text-primary font-bold' : 'text-secondary font-bold'}">${s.time}</span>
+            </div>
+            <div>
+              <h4 class="font-headline-md text-headline-md uppercase text-on-surface leading-tight">${s.title}</h4>
+              <p class="font-body-sm text-body-sm text-secondary">${s.sub}</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <span class="px-2.5 py-1 rounded bg-surface-container-highest text-secondary font-label-mono-sm text-xs">CAPACITY: ${s.cap}</span>
+            ${s.cap !== 'SHUT' ? `
+              <a href="https://wa.me/?text=Hi%20Spartan%20Gym%20Madipur,%20I%20would%20like%20to%20reserve%20a%20slot%20for%20${encodeURIComponent(s.title)}." target="_blank" class="px-4 py-2 bg-primary-container/20 hover:bg-primary-container text-primary hover:text-on-primary-container rounded font-label-caps text-xs uppercase transition-colors">RESERVE</a>
+            ` : '<span class="text-xs text-secondary/40 font-label-mono-sm uppercase">REST DAY</span>'}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // 4. FAQ ACCORDION INTERACTION
+    function toggleFaq(btn) {
+      const content = btn.nextElementSibling;
+      const icon = btn.querySelector('.material-symbols-outlined');
+      const isHidden = content.classList.contains('hidden');
+
+      // Close other open FAQs
+      document.querySelectorAll('#faq-accordion-group .faq-content').forEach(c => c.classList.add('hidden'));
+      document.querySelectorAll('#faq-accordion-group .material-symbols-outlined').forEach(i => i.textContent = 'add');
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        if (icon) icon.textContent = 'remove';
+      }
+    }
+
+    // 5. TRIAL SUBMISSION VALIDATION & REDIRECT
+    function handleTrialSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('trial-name').value.trim();
+      const phone = document.getElementById('trial-phone').value.trim();
+      const time = document.getElementById('trial-time').value;
+      const success = document.getElementById('trial-success-msg');
+
+      if (name && phone) {
+        success.classList.remove('hidden');
+        const encodedText = encodeURIComponent(`Hi Spartan Gym Madipur, I want to confirm my 1-Day Trial. Name: ${name}, Phone: ${phone}, Time Slot: ${time}.`);
+        setTimeout(() => {
+          window.open(`https://wa.me/?text=${encodedText}`, '_blank');
+        }, 1200);
+      }
+    }
+
+    // 6. SYNTHESIZED WEB AUDIO AMBIENT GYM PULSE
+    let audioCtx = null;
+    let isAudioPlaying = false;
+    let pulseOsc = null;
+    let pulseGain = null;
+
+    function toggleAudio() {
+      if (!isAudioPlaying) {
+        playGymDronePulse();
+      } else {
+        stopGymDronePulse();
+      }
+    }
+
+    function playGymDronePulse() {
+      try {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        if (!audioCtx) audioCtx = new AudioContext();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+
+        // Sub low frequency rumble
+        pulseOsc = audioCtx.createOscillator();
+        pulseGain = audioCtx.createGain();
+
+        pulseOsc.type = 'sawtooth';
+        pulseOsc.frequency.setValueAtTime(55, audioCtx.currentTime); // Low A1 note
+        
+        // Lowpass filter for deep muffled bass feeling
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(140, audioCtx.currentTime);
+
+        pulseGain.gain.setValueAtTime(0.001, audioCtx.currentTime);
+        pulseGain.gain.exponentialRampToValueAtTime(0.04, audioCtx.currentTime + 2); // Soft volume
+
+        pulseOsc.connect(filter);
+        filter.connect(pulseGain);
+        pulseGain.connect(audioCtx.destination);
+
+        pulseOsc.start();
+        isAudioPlaying = true;
+        updateAudioIcons(true);
+      } catch (err) {
+        console.warn("Audio Context restricted: ", err);
+      }
+    }
+
+    function stopGymDronePulse() {
+      if (pulseGain && audioCtx) {
+        pulseGain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.5);
+        setTimeout(() => {
+          if (pulseOsc) pulseOsc.stop();
+          isAudioPlaying = false;
+          updateAudioIcons(false);
+        }, 500);
+      }
+    }
+
+    function updateAudioIcons(playing) {
+      const icon = document.getElementById('audio-icon-state');
+      if (icon) {
+        icon.textContent = playing ? 'volume_up' : 'volume_off';
+      }
+    }
+
+    // Initialize scripts on load
+    document.addEventListener('DOMContentLoaded', () => {
+      initPreloader();
+      const audioBtn = document.getElementById('toggle-ambient-audio-btn');
+      if (audioBtn) audioBtn.addEventListener('click', toggleAudio);
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface mt-space-xl shadow-[0_-1px_12px_rgba(0,0,0,0.6)]"><div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin py-space-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Spartan Gym Emblem" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPDXdq1Zb4pazJdZbbh-L4Si-nH5mde1e5onrdj7UTWGoBYUYPPK4I8816nwWrmWNjd9yJoAMth-boapJ_zLcNmuhYSZGCayTCux1Rsaey02pvVvd-K7ZPMqdi1x9hbUQISpdkSse9x-rdIoaQ5m6HIHrVk4L83p19j5Y23yfG9yac44F0E-vcVIRsmSXxiXdCY82EzRAcxl5Oazh-GxA8ca6F0_HhDeGJGCx4fPMzp4Q3Nmdm6zHx"/><span class="font-headline-md text-headline-md tracking-wider uppercase text-on-surface">SPARTAN GYM</span></div><p class="font-body-sm text-body-sm text-secondary">Elite athletic training sanctuary engineered for high-performance conditioning, bodybuilding, and tactical physical supremacy in New Delhi.</p><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-primary-container text-[18px]">location_on</span><span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">MADIPUR COLONY • NEW DELHI - 110063</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-md text-headline-md text-on-surface uppercase tracking-wide">QUICK ACCESS</span><nav class="flex flex-col gap-space-xs font-body-sm text-body-sm text-secondary"><a class="hover:text-primary transition-colors" data-path="programs" href="#">Performance Programs</a><a class="hover:text-primary transition-colors" data-path="facilities" href="#">Heavy Iron Arena</a><a class="hover:text-primary transition-colors" data-path="trainers" href="#">Master Cadre Coaches</a><a class="hover:text-primary transition-colors" data-path="memberships" href="#">Elite Tier Enlistment</a><a class="hover:text-primary transition-colors" data-path="muscle-3d" href="#muscle-explorer-section">3D Biometric Matrix</a><a class="hover:text-primary transition-colors" data-path="schedule" href="#">Arena Training Hours</a></nav></div><div class="flex flex-col gap-space-sm"><span class="font-headline-md text-headline-md text-on-surface uppercase tracking-wide">OPERATING PROTOCOL</span><div class="flex flex-col gap-space-xs font-label-data text-label-data text-secondary"><div class="flex justify-between items-center py-space-xs bg-surface-container-low px-space-sm rounded"><span class="text-on-surface">MON - SAT:</span><span class="text-primary font-bold">05:30 AM - 10:30 PM</span></div><div class="flex justify-between items-center py-space-xs bg-surface-container-low px-space-sm rounded"><span class="text-on-surface">SUNDAY:</span><span class="text-primary-container font-bold">07:00 AM - 02:00 PM</span></div><div class="flex items-center gap-space-xs mt-space-xs font-label-mono-sm text-label-mono-sm text-secondary"><span class="material-symbols-outlined text-[16px] text-primary">bolt</span><span>RECOVERY SPA &amp; STEAM SLOTS ACTIVE DAILY</span></div></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-md text-headline-md text-on-surface uppercase tracking-wide">DIRECT DESK</span><p class="font-body-sm text-body-sm text-secondary">Madipur Colony Station Road, Near Metro Pillar, West Delhi, India.</p><div class="flex flex-col gap-space-xs mt-space-xs font-label-mono-sm text-label-mono-sm"><span class="text-on-surface">TEL: +91 (011) 4920-SPRT</span><span class="text-on-surface">SECURE LINE: desk@spartangymdelhi.in</span></div></div></div><div class="bg-surface-container-low py-space-md"><div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin flex flex-col sm:flex-row items-center justify-between gap-space-sm"><span class="font-label-mono-sm text-label-mono-sm text-secondary uppercase">© 2025 SPARTAN GYM MADIPUR. ALL WARRIOR RIGHTS RESERVED.</span><div class="flex items-center gap-space-md font-label-mono-sm text-label-mono-sm text-secondary"><a class="hover:text-on-surface transition-colors" href="#">DISCIPLINE POLICY</a><a class="hover:text-on-surface transition-colors" href="#">LIABILITY WAIVER</a><a class="hover:text-on-surface transition-colors" href="#">PRIVACY PROTOCOL</a></div></div></div></footer><div class="fixed bottom-6 right-6 z-50"><a class="group flex items-center gap-space-xs bg-surface-container-high hover:bg-surface-container-highest px-space-md py-space-sm rounded-full shadow-[0_4px_24px_rgba(0,0,0,0.6)] transition-all hover:scale-105 active:scale-95" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><div class="w-3 h-3 rounded-full bg-primary-container animate-ping"></div><span class="material-symbols-outlined text-primary text-[22px]">chat</span><span class="font-label-caps text-label-caps text-on-surface uppercase group-hover:text-primary transition-colors">WHATSAPP DESK</span></a></div></body></html>
